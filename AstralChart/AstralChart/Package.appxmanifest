@@ -7,15 +7,15 @@
   IgnorableNamespaces="uap mp">
 
   <Identity
-    Name="2a99647f-70bc-4820-bd49-dec165e3299a"
-    Publisher="CN=jd"
+    Name="0c6fc4c6-671b-4704-9f21-c30fcde0150b"
+    Publisher="CN=Ángel"
     Version="1.0.0.0" />
 
-  <mp:PhoneIdentity PhoneProductId="2a99647f-70bc-4820-bd49-dec165e3299a" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+  <mp:PhoneIdentity PhoneProductId="0c6fc4c6-671b-4704-9f21-c30fcde0150b" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
     <DisplayName>AstralChart</DisplayName>
-    <PublisherDisplayName>jd</PublisherDisplayName>
+    <PublisherDisplayName>Ángel</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
 
