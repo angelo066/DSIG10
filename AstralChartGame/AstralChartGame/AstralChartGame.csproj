@@ -119,9 +119,7 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <Compile Include="GameState.xaml.cs">
-      <DependentUpon>GameState.xaml</DependentUpon>
-    </Compile>
+    <Compile Include="GameState.xaml.cs" />
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
@@ -136,6 +134,14 @@
     </AppxManifest>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\1037185.png" />
+    <Content Include="Assets\1211807.png" />
+    <Content Include="Assets\313438-200.png" />
+    <Content Include="Assets\descarga.png" />
+    <Content Include="Assets\Pause3.png" />
+    <Content Include="Assets\Rb859d73f1b1db5da474c6fd29779329c.png" />
+    <Content Include="Assets\sea.jpg" />
+    <Content Include="Assets\Stars.jpg" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />
@@ -151,8 +157,8 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Page Include="GameState.xaml">
-      <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="MainPage.xaml">
       <Generator>MSBuild:Compile</Generator>
