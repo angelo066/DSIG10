@@ -9,18 +9,26 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <Image Source="/Assets/Stars.jpg" HorizontalAlignment="Center" Stretch="Fill" VerticalAlignment="Center"/>
-
-        <StackPanel>
-            <Image Source="/Assets/off.png" HorizontalAlignment="Right" Height="80" VerticalAlignment="Top" Width="80"/>
-            <TextBlock Text="Exit" Width="59" HorizontalAlignment="Right" FontFamily="Audiowide"/>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="10*"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Image Source="/Assets/Stars.jpg" HorizontalAlignment="Center" Stretch="Fill" VerticalAlignment="Center" Grid.ColumnSpan="10"/>
+        <Viewbox VerticalAlignment="Top" Height="200" HorizontalAlignment="Center" Margin="20,0,20,0">
+        <StackPanel VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0,25,0,0" RequestedTheme="Dark">
+            <Image Source="/Assets/options.png" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Height="100"/>
+            <TextBlock Text="Options" HorizontalAlignment="Center" FontFamily="Audiowide" VerticalAlignment="Center" FontSize="14" Margin="0,20,0,0"/>
         </StackPanel>
-
-        <StackPanel>
-            <Image Source="/Assets/options.png" HorizontalAlignment="Left" Height="80" VerticalAlignment="Top" Width="80"/>
-            <TextBlock Text="Options" Width="79" HorizontalAlignment="Left" FontFamily="Audiowide"/>
+        </Viewbox>
+        <Viewbox HorizontalAlignment="Center" VerticalAlignment="Top" Grid.Column="2" Height="200" Margin="20,0,20,0">
+        <StackPanel Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,25,0,0" RequestedTheme="Dark">
+            <Image Source="/Assets/off.png" HorizontalAlignment="Right" Height="100" VerticalAlignment="Top" Width="100"/>
+            <TextBlock Text="Exit" HorizontalAlignment="Center" FontFamily="Audiowide" Margin="0,20,0,0" VerticalAlignment="Center"/>
         </StackPanel>
-
-        <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Text="PLAY" FontSize="100" FontFamily="Audiowide"/>
+        </Viewbox>
+        <Viewbox Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" Height="155">
+            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Text="PLAY" FontSize="100" FontFamily="Audiowide" RequestedTheme="Dark" />
+        </Viewbox>
     </Grid>
 </Page>

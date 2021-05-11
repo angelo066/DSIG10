@@ -10,14 +10,14 @@
 
     <Grid>
         <Image Source="/Assets/Stars.jpg" HorizontalAlignment="Center" Stretch="Fill" VerticalAlignment="Center"/>
-        <Image Source="/Assets/cuaderno.png" HorizontalAlignment="Center"  VerticalAlignment="Center"/>
-
-        <StackPanel VerticalAlignment="Top" HorizontalAlignment="Center">
-            <TextBlock Text="Pause" FontSize="75" />
-            <TextBlock Text="Resume" FontSize="50" Margin="0,100" />
-            <TextBlock Text="Options" FontSize="50" Margin="0,100"/>
-            <TextBlock Text="Exit" FontSize="50" Margin="0,75" HorizontalAlignment="Center"/>
-
+        <Image Source="/Assets/cuaderno.png" HorizontalAlignment="Center"  VerticalAlignment="Center" Margin="0,20,0,20"/>
+        <Viewbox HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,100,0,120">
+        <StackPanel VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0,100,0,0" RequestedTheme="Dark">
+            <TextBlock Text="Pause" FontSize="75" VerticalAlignment="Top" HorizontalAlignment="Center" FontFamily="Audiowide"/>
+            <TextBlock Text="Resume" FontSize="50" Margin="0,175,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" FontFamily="Audiowide" />
+            <TextBlock Text="Options" FontSize="50" FontFamily="Audiowide" Margin="0,100,0,0"/>
+            <TextBlock Text="Exit" FontSize="50" Margin="0,100,0,0" HorizontalAlignment="Center" FontFamily="Audiowide"/>
         </StackPanel>
+        </Viewbox>
     </Grid>
 </Page>
