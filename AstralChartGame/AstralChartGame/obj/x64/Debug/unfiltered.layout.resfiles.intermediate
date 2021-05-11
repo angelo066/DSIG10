@@ -5,6 +5,8 @@ Assets\313438-200.png
 Assets\descarga.png
 Assets\fonts\Audiowide-Regular.ttf
 Assets\LockScreenLogo.scale-200.png
+Assets\off.png
+Assets\options.png
 Assets\Pause3.png
 Assets\Rb859d73f1b1db5da474c6fd29779329c.png
 Assets\sea.jpg
@@ -19,5 +21,6 @@ App.xbf
 AstralChartGame.xr.xml
 GameState.xbf
 MainPage.xbf
+Menu.xbf
 OptionsState.xbf
 Properties\Default.rd.xml

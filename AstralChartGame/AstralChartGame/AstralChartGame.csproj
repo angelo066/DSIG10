@@ -123,6 +123,9 @@
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Menu.xaml.cs">
+      <DependentUpon>Menu.xaml</DependentUpon>
+    </Compile>
     <Compile Include="OptionsState.xaml.cs">
       <DependentUpon>OptionsState.xaml</DependentUpon>
     </Compile>
@@ -138,6 +141,8 @@
     <Content Include="Assets\1211807.png" />
     <Content Include="Assets\313438-200.png" />
     <Content Include="Assets\descarga.png" />
+    <Content Include="Assets\off.png" />
+    <Content Include="Assets\options.png" />
     <Content Include="Assets\Pause3.png" />
     <Content Include="Assets\Rb859d73f1b1db5da474c6fd29779329c.png" />
     <Content Include="Assets\sea.jpg" />
@@ -163,6 +168,10 @@
     <Page Include="MainPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Menu.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="OptionsState.xaml">
       <SubType>Designer</SubType>

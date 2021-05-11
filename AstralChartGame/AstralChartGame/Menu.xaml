@@ -1,0 +1,26 @@
+﻿<Page
+    x:Class="AstralChartGame.Menu"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:AstralChartGame"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Image Source="/Assets/Stars.jpg" HorizontalAlignment="Center" Stretch="Fill" VerticalAlignment="Center"/>
+
+        <StackPanel>
+            <Image Source="/Assets/off.png" HorizontalAlignment="Right" Height="80" VerticalAlignment="Top" Width="80"/>
+            <TextBlock Text="Exit" Width="59" HorizontalAlignment="Right" FontFamily="Audiowide"/>
+        </StackPanel>
+
+        <StackPanel>
+            <Image Source="/Assets/options.png" HorizontalAlignment="Left" Height="80" VerticalAlignment="Top" Width="80"/>
+            <TextBlock Text="Options" Width="79" HorizontalAlignment="Left" FontFamily="Audiowide"/>
+        </StackPanel>
+
+        <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Text="PLAY" FontSize="100" FontFamily="Audiowide"/>
+    </Grid>
+</Page>

@@ -382,6 +382,12 @@
     <AppxPackagedFile Include="D:\Universidad\Uni\Segundo\SegundoCuatri\DSI\DSIProyecto\DSIG10\AstralChartGame\AstralChartGame\Assets\descarga.png">
       <PackagePath>Assets\descarga.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Universidad\Uni\Segundo\SegundoCuatri\DSI\DSIProyecto\DSIG10\AstralChartGame\AstralChartGame\Assets\off.png">
+      <PackagePath>Assets\off.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Universidad\Uni\Segundo\SegundoCuatri\DSI\DSIProyecto\DSIG10\AstralChartGame\AstralChartGame\Assets\options.png">
+      <PackagePath>Assets\options.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Universidad\Uni\Segundo\SegundoCuatri\DSI\DSIProyecto\DSIG10\AstralChartGame\AstralChartGame\Assets\Pause3.png">
       <PackagePath>Assets\Pause3.png</PackagePath>
     </AppxPackagedFile>
@@ -438,6 +444,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Universidad\Uni\Segundo\SegundoCuatri\DSI\DSIProyecto\DSIG10\AstralChartGame\AstralChartGame\bin\x64\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Universidad\Uni\Segundo\SegundoCuatri\DSI\DSIProyecto\DSIG10\AstralChartGame\AstralChartGame\bin\x64\Debug\Menu.xbf">
+      <PackagePath>Menu.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Universidad\Uni\Segundo\SegundoCuatri\DSI\DSIProyecto\DSIG10\AstralChartGame\AstralChartGame\bin\x64\Debug\OptionsState.xbf">
       <PackagePath>OptionsState.xbf</PackagePath>
