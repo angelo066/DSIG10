@@ -30,13 +30,13 @@
     <AppXManifest Include="D:\Universidad\Uni\Segundo\SegundoCuatri\DSI\DSIProyecto\DSIG10\AstralChartGame\AstralChartGame\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-05-11T01:52:24.563</Modified>
+      <Modified>2021-05-11T02:12:31.957</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\Universidad\Uni\Segundo\SegundoCuatri\DSI\DSIProyecto\DSIG10\AstralChartGame\AstralChartGame\bin\x64\Debug\AstralChartGame.exe">
       <PackagePath>entrypoint\AstralChartGame.exe</PackagePath>
-      <Modified>2021-05-11T01:52:23.947</Modified>
+      <Modified>2021-05-11T02:12:31.217</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\microsoft.csharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -506,9 +506,17 @@
       <PackagePath>Assets\313438-200.png</PackagePath>
       <Modified>2021-05-11T01:17:59.816</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Universidad\Uni\Segundo\SegundoCuatri\DSI\DSIProyecto\DSIG10\AstralChartGame\AstralChartGame\Assets\cuaderno.png">
+      <PackagePath>Assets\cuaderno.png</PackagePath>
+      <Modified>2021-05-11T01:55:34.607</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Universidad\Uni\Segundo\SegundoCuatri\DSI\DSIProyecto\DSIG10\AstralChartGame\AstralChartGame\Assets\descarga.png">
       <PackagePath>Assets\descarga.png</PackagePath>
       <Modified>2021-05-11T01:18:11.612</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Universidad\Uni\Segundo\SegundoCuatri\DSI\DSIProyecto\DSIG10\AstralChartGame\AstralChartGame\Assets\levels.png">
+      <PackagePath>Assets\levels.png</PackagePath>
+      <Modified>2021-05-11T02:10:11.784</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Universidad\Uni\Segundo\SegundoCuatri\DSI\DSIProyecto\DSIG10\AstralChartGame\AstralChartGame\Assets\off.png">
       <PackagePath>Assets\off.png</PackagePath>
@@ -578,27 +586,35 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Universidad\Uni\Segundo\SegundoCuatri\DSI\DSIProyecto\DSIG10\AstralChartGame\AstralChartGame\bin\x64\Debug\AstralChartGame.xr.xml">
       <PackagePath>AstralChartGame.xr.xml</PackagePath>
-      <Modified>2021-05-11T01:52:23.757</Modified>
+      <Modified>2021-05-11T02:12:31.094</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Universidad\Uni\Segundo\SegundoCuatri\DSI\DSIProyecto\DSIG10\AstralChartGame\AstralChartGame\bin\x64\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2021-05-11T01:52:23.775</Modified>
+      <Modified>2021-05-11T02:12:31.107</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Universidad\Uni\Segundo\SegundoCuatri\DSI\DSIProyecto\DSIG10\AstralChartGame\AstralChartGame\bin\x64\Debug\GameState.xbf">
       <PackagePath>GameState.xbf</PackagePath>
-      <Modified>2021-05-11T01:52:23.775</Modified>
+      <Modified>2021-05-11T02:12:31.107</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Universidad\Uni\Segundo\SegundoCuatri\DSI\DSIProyecto\DSIG10\AstralChartGame\AstralChartGame\bin\x64\Debug\Levels.xbf">
+      <PackagePath>Levels.xbf</PackagePath>
+      <Modified>2021-05-11T02:12:31.108</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Universidad\Uni\Segundo\SegundoCuatri\DSI\DSIProyecto\DSIG10\AstralChartGame\AstralChartGame\bin\x64\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2021-05-11T01:52:23.776</Modified>
+      <Modified>2021-05-11T02:12:31.108</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Universidad\Uni\Segundo\SegundoCuatri\DSI\DSIProyecto\DSIG10\AstralChartGame\AstralChartGame\bin\x64\Debug\Menu.xbf">
       <PackagePath>Menu.xbf</PackagePath>
-      <Modified>2021-05-11T01:52:23.776</Modified>
+      <Modified>2021-05-11T02:12:31.108</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Universidad\Uni\Segundo\SegundoCuatri\DSI\DSIProyecto\DSIG10\AstralChartGame\AstralChartGame\bin\x64\Debug\OptionsState.xbf">
       <PackagePath>OptionsState.xbf</PackagePath>
-      <Modified>2021-05-11T01:52:23.776</Modified>
+      <Modified>2021-05-11T02:12:31.108</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Universidad\Uni\Segundo\SegundoCuatri\DSI\DSIProyecto\DSIG10\AstralChartGame\AstralChartGame\bin\x64\Debug\Pause.xbf">
+      <PackagePath>Pause.xbf</PackagePath>
+      <Modified>2021-05-11T02:12:31.108</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.17134.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -606,11 +622,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Universidad\Uni\Segundo\SegundoCuatri\DSI\DSIProyecto\DSIG10\AstralChartGame\AstralChartGame\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2021-05-11T01:44:52.903</Modified>
+      <Modified>2021-05-11T02:12:31.686</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Universidad\Uni\Segundo\SegundoCuatri\DSI\DSIProyecto\DSIG10\AstralChartGame\AstralChartGame\bin\x64\Debug\Core\AstralChartGame.exe">
       <PackagePath>AstralChartGame.exe</PackagePath>
-      <Modified>2021-05-11T01:52:24.556</Modified>
+      <Modified>2021-05-11T02:12:31.951</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

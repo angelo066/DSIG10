@@ -2,8 +2,10 @@ WinMetadata\Windows.winmd
 Assets\1037185.png
 Assets\1211807.png
 Assets\313438-200.png
+Assets\cuaderno.png
 Assets\descarga.png
 Assets\fonts\Audiowide-Regular.ttf
+Assets\levels.png
 Assets\LockScreenLogo.scale-200.png
 Assets\off.png
 Assets\options.png
@@ -20,7 +22,9 @@ Assets\Wide310x150Logo.scale-200.png
 App.xbf
 AstralChartGame.xr.xml
 GameState.xbf
+Levels.xbf
 MainPage.xbf
 Menu.xbf
 OptionsState.xbf
+Pause.xbf
 Properties\Default.rd.xml

@@ -189,21 +189,25 @@ namespace AstralChartGame.AstralChartGame_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[6];
+            _typeNameTable = new string[8];
             _typeNameTable[0] = "AstralChartGame.GameState";
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
-            _typeNameTable[3] = "AstralChartGame.MainPage";
-            _typeNameTable[4] = "AstralChartGame.Menu";
-            _typeNameTable[5] = "AstralChartGame.OptionsState";
+            _typeNameTable[3] = "AstralChartGame.Levels";
+            _typeNameTable[4] = "AstralChartGame.MainPage";
+            _typeNameTable[5] = "AstralChartGame.Menu";
+            _typeNameTable[6] = "AstralChartGame.OptionsState";
+            _typeNameTable[7] = "AstralChartGame.Pause";
 
-            _typeTable = new global::System.Type[6];
+            _typeTable = new global::System.Type[8];
             _typeTable[0] = typeof(global::AstralChartGame.GameState);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
-            _typeTable[3] = typeof(global::AstralChartGame.MainPage);
-            _typeTable[4] = typeof(global::AstralChartGame.Menu);
-            _typeTable[5] = typeof(global::AstralChartGame.OptionsState);
+            _typeTable[3] = typeof(global::AstralChartGame.Levels);
+            _typeTable[4] = typeof(global::AstralChartGame.MainPage);
+            _typeTable[5] = typeof(global::AstralChartGame.Menu);
+            _typeTable[6] = typeof(global::AstralChartGame.OptionsState);
+            _typeTable[7] = typeof(global::AstralChartGame.Pause);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -239,9 +243,11 @@ namespace AstralChartGame.AstralChartGame_XamlTypeInfo
         }
 
         private object Activate_0_GameState() { return new global::AstralChartGame.GameState(); }
-        private object Activate_3_MainPage() { return new global::AstralChartGame.MainPage(); }
-        private object Activate_4_Menu() { return new global::AstralChartGame.Menu(); }
-        private object Activate_5_OptionsState() { return new global::AstralChartGame.OptionsState(); }
+        private object Activate_3_Levels() { return new global::AstralChartGame.Levels(); }
+        private object Activate_4_MainPage() { return new global::AstralChartGame.MainPage(); }
+        private object Activate_5_Menu() { return new global::AstralChartGame.Menu(); }
+        private object Activate_6_OptionsState() { return new global::AstralChartGame.OptionsState(); }
+        private object Activate_7_Pause() { return new global::AstralChartGame.Pause(); }
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
@@ -268,23 +274,37 @@ namespace AstralChartGame.AstralChartGame_XamlTypeInfo
                 xamlType = new global::AstralChartGame.AstralChartGame_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 3:   //  AstralChartGame.MainPage
+            case 3:   //  AstralChartGame.Levels
                 userType = new global::AstralChartGame.AstralChartGame_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_3_MainPage;
+                userType.Activator = Activate_3_Levels;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 4:   //  AstralChartGame.Menu
+            case 4:   //  AstralChartGame.MainPage
                 userType = new global::AstralChartGame.AstralChartGame_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_4_Menu;
+                userType.Activator = Activate_4_MainPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 5:   //  AstralChartGame.OptionsState
+            case 5:   //  AstralChartGame.Menu
                 userType = new global::AstralChartGame.AstralChartGame_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_5_OptionsState;
+                userType.Activator = Activate_5_Menu;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 6:   //  AstralChartGame.OptionsState
+                userType = new global::AstralChartGame.AstralChartGame_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_6_OptionsState;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 7:   //  AstralChartGame.Pause
+                userType = new global::AstralChartGame.AstralChartGame_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_7_Pause;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
