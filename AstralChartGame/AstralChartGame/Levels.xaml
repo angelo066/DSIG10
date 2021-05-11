@@ -9,6 +9,108 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+
+            <ColumnDefinition Width="1*"/>
+
+            <ColumnDefinition Width="1*"/>
+
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="2.25*"/>
+            <RowDefinition Height="2.25*"/>
+            <RowDefinition Height="2*"/>
+        </Grid.RowDefinitions>
+
+        <Button Grid.Column="0" Content="Back"  FontSize="35" Margin="77,0,0,0"/>
+
+        <TextBlock Grid.Column="1" Grid.Row ="0" Text="Levels" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="55" ></TextBlock>
+
+        <Image Source ="/Assets/level_0.png" Grid.Column="0" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center"> </Image>
+
+        <Image Source ="/Assets/level_1.png" Grid.Column="1" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center"></Image>
+
+        <Image Source ="/Assets/level_2.png" Grid.Column="2" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center"></Image>
+
+        <Image Source ="/Assets/level_3.png" Grid.Column="0" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center"></Image>
+
+        <Image Source ="/Assets/level_4.png" Grid.Column="1" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center"></Image>
+
+        <Image Source ="/Assets/level_5.png" Grid.Column="2" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center"></Image>
+
+        <Grid Grid.Column="0" Grid.Row ="3">
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.25*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="0.25*"/>
+            </Grid.ColumnDefinitions>
+
+            <TextBlock Grid.Column="1" Grid.Row ="0" Text="Completed" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="55" ></TextBlock>
+            <TextBlock Grid.Column="1" Grid.Row ="1" Text="Unlocked" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="55" ></TextBlock>
+            <TextBlock Grid.Column="1" Grid.Row ="2" Text="Locked" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="55" ></TextBlock>
+
+            <Grid Grid.Column="0" Grid.Row ="0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="1*"/>
+                    <RowDefinition Height="1*"/>
+                    <RowDefinition Height="1*"/>
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*"/>
+                    <ColumnDefinition Width="1*"/>
+                    <ColumnDefinition Width="1*"/>
+                </Grid.ColumnDefinitions>
+
+                <Rectangle Grid.Column="1" Grid.Row ="1" Fill="Yellow"  ></Rectangle>
+
+            </Grid>
+
+            <Grid Grid.Column="0" Grid.Row ="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="1*"/>
+                    <RowDefinition Height="1*"/>
+                    <RowDefinition Height="1*"/>
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*"/>
+                    <ColumnDefinition Width="1*"/>
+                    <ColumnDefinition Width="1*"/>
+                </Grid.ColumnDefinitions>
+
+                <Rectangle Grid.Column="1" Grid.Row ="1" Fill="Blue" ></Rectangle>
+
+            </Grid>
+
+            <Grid Grid.Column="0" Grid.Row ="2">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="1*"/>
+                    <RowDefinition Height="1*"/>
+                    <RowDefinition Height="1*"/>
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*"/>
+                    <ColumnDefinition Width="1*"/>
+                    <ColumnDefinition Width="1*"/>
+                </Grid.ColumnDefinitions>
+
+                <Rectangle Grid.Column="1" Grid.Row ="1" Fill="White" ></Rectangle>
+
+            </Grid>
+
+        </Grid>
 
     </Grid>
 </Page>
