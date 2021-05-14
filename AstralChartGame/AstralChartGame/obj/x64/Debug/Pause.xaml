@@ -14,9 +14,9 @@
         <Viewbox HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,100,0,120">
         <StackPanel VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0,100,0,0" RequestedTheme="Dark">
             <TextBlock Text="Pause" FontSize="75" VerticalAlignment="Top" HorizontalAlignment="Center" FontFamily="Audiowide"/>
-            <TextBlock Text="Resume" FontSize="50" Margin="0,175,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" FontFamily="Audiowide" />
-            <TextBlock Text="Options" FontSize="50" FontFamily="Audiowide" Margin="0,100,0,0"/>
-            <TextBlock Text="Exit" FontSize="50" Margin="0,100,0,0" HorizontalAlignment="Center" FontFamily="Audiowide"/>
+            <Button x:ConnectionId='2' Content="Resume" FontSize="50" Margin="0,175,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" FontFamily="Audiowide"                       Tag="Game"/>
+            <Button x:ConnectionId='3' Content="Options" FontSize="50" FontFamily="Audiowide" Margin="0,100,0,0"                       Tag="Options"/>
+            <Button x:ConnectionId='4' Content="Exit" FontSize="50" Margin="0,100,0,0" HorizontalAlignment="Center" FontFamily="Audiowide"                       Tag="Exit"/>
         </StackPanel>
         </Viewbox>
     </Grid>
