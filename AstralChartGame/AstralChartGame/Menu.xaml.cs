@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
+using Windows.ApplicationModel.Core;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.UI.Xaml;
@@ -31,5 +32,28 @@ namespace AstralChartGame
             Frame.Navigate(typeof(Levels), "Menu");
 
         }
+
+        private void onButtonClick(object sender, RoutedEventArgs e)
+        {
+            Button button = (Button)sender;
+            string code = button.Tag.ToString();
+
+            switch (code)
+            {
+                case "Exit":
+                    {
+                        CoreApplication.Exit();
+                    }
+                    break;
+                case "Options":
+                    {
+                        Frame.Navigate(typeof(OptionsState));
+                    }
+                    break;
+                default:
+                    break;
+            }
+        }
+
     }
 }
