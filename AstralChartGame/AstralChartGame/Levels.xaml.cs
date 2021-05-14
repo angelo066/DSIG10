@@ -22,14 +22,32 @@ namespace AstralChartGame
     /// </summary>
     public sealed partial class Levels : Page
     {
-        public Levels()
-        {
+        public string comingFrom;
+        public Levels() {
             this.InitializeComponent();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
+        protected override async void OnNavigatedTo(NavigationEventArgs e){
+            var comingFrom = e.Parameter as string;
+            backButton.Tag = comingFrom;
+        }
 
+        private void back_Click(object sender, RoutedEventArgs e) {
+            Button button = (Button)sender;
+            string code = button.Tag.ToString();
+
+            switch (code){
+                case "Menu":{
+                     Frame.Navigate(typeof(Menu));
+                }
+                break;
+                case "Pause":{
+                     Frame.Navigate(typeof(Pause));
+                }
+                break;
+                default:
+                    break;
+            }
         }
     }
 }

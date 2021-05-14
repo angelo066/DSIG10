@@ -26,5 +26,10 @@ namespace AstralChartGame
         {
             this.InitializeComponent();
         }
+
+        private void play_Click(object sender, RoutedEventArgs e){
+            Frame.Navigate(typeof(Levels), "Menu");
+
+        }
     }
 }

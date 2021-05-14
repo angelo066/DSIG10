@@ -27,7 +27,8 @@
         
         <Image HorizontalAlignment="Stretch" Margin="0,0,0,0" VerticalAlignment="Stretch" Grid.RowSpan="4" Grid.ColumnSpan="3" Source="/Assets/Stars.jpg" Stretch="UniformToFill"/>
 
-        <Button Grid.Column="0" Content="Back"  FontSize="35" Margin="77,0,0,0" RequestedTheme="Dark" FontFamily="Audiowide"/>
+        <Button x:Name="backButton" Content="Back" Click="back_Click" Tag=""  FontSize="35" Margin="77,0,0,0" RequestedTheme="Dark" FontFamily="Audiowide"/>
+
 
         <TextBlock Grid.Column="1" Grid.Row ="0" Text="Levels" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="55" FontFamily="Audiowide" RequestedTheme="Dark" ></TextBlock>
 

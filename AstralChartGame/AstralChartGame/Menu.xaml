@@ -28,7 +28,7 @@
         </StackPanel>
         </Viewbox>
         <Viewbox Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" Height="155">
-            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Text="PLAY" FontSize="100" FontFamily="Audiowide" RequestedTheme="Dark" />
+            <Button HorizontalAlignment="Center" VerticalAlignment="Center" Content="PLAY" Click="play_Click" FontSize="100" FontFamily="Audiowide" RequestedTheme="Dark" />
         </Viewbox>
     </Grid>
 </Page>
