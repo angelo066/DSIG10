@@ -16,8 +16,8 @@
         </Grid.ColumnDefinitions>
         <Image Source="/Assets/Stars.jpg" HorizontalAlignment="Center" Stretch="Fill" VerticalAlignment="Center" Grid.ColumnSpan="10"/>
         <Viewbox VerticalAlignment="Top" Height="200" HorizontalAlignment="Center" Margin="20,0,20,0">
-        <StackPanel VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0,25,0,0" RequestedTheme="Dark">
-            <Button x:ConnectionId='4'  HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Height="100" Tag="Options"                      >
+            <StackPanel VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0,25,0,0" RequestedTheme="Dark">
+                <Button x:ConnectionId='4'  HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Height="100" Tag="Options"                      >
                     <Button.Background>
                         <ImageBrush ImageSource="/Assets/options.png"/>
                     </Button.Background>

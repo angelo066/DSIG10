@@ -400,6 +400,9 @@
     <AppxPackagedFile Include="C:\Users\jd\Desktop\Uni\Segundo\2do4\DSI\ProyectoDSI\DSIG10\DSIG10-\AstralChartGame\AstralChartGame\Assets\Rb859d73f1b1db5da474c6fd29779329c.png">
       <PackagePath>Assets\Rb859d73f1b1db5da474c6fd29779329c.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jd\Desktop\Uni\Segundo\2do4\DSI\ProyectoDSI\DSIG10\DSIG10-\AstralChartGame\AstralChartGame\Assets\star.png">
+      <PackagePath>Assets\star.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jd\Desktop\Uni\Segundo\2do4\DSI\ProyectoDSI\DSIG10\DSIG10-\AstralChartGame\AstralChartGame\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>

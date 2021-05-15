@@ -119,6 +119,7 @@
     <RootType FullName="AstralChartGame.MainPage" />
     <RootType FullName="Windows.UI.Xaml.Media.ImageBrush">
       <RootProperty Name="ImageSource" />
+      <RootProperty Name="Stretch" />
     </RootType>
     <RootType FullName="AstralChartGame.Menu" />
     <RootType FullName="Windows.UI.Xaml.Controls.ScrollViewer">
@@ -169,6 +170,10 @@
     </RootType>
     <RootType FullName="AstralChartGame.OptionsState" />
     <RootType FullName="AstralChartGame.Pause" />
+    <RootType FullName="Windows.UI.Xaml.Controls.RelativePanel">
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Children" />
+    </RootType>
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.StaticResourceExtension" />
     <RootType FullName="AstralChartGame.Stages.Lev1" />
     <RootType FullName="AstralChartGame.Stages.Lev2" />
