@@ -136,6 +136,24 @@
       <DependentUpon>Pause.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Stages\Lev1.xaml.cs">
+      <DependentUpon>Lev1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Stages\Lev2.xaml.cs">
+      <DependentUpon>Lev2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Stages\Lev3.xaml.cs">
+      <DependentUpon>Lev3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Stages\Lev4.xaml.cs">
+      <DependentUpon>Lev4.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Stages\Lev5.xaml.cs">
+      <DependentUpon>Lev5.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Stages\Lev6.xaml.cs">
+      <DependentUpon>Lev6.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest">
@@ -190,6 +208,30 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Pause.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Stages\Lev1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Stages\Lev2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Stages\Lev3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Stages\Lev4.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Stages\Lev5.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Stages\Lev6.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

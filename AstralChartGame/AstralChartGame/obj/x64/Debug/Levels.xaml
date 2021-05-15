@@ -10,11 +10,11 @@
 
     <Grid>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="2*"/>
 
             <ColumnDefinition Width="2*"/>
 
-            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="2*"/>
 
         </Grid.ColumnDefinitions>
 
@@ -27,24 +27,20 @@
         
         <Image HorizontalAlignment="Stretch" Margin="0,0,0,0" VerticalAlignment="Stretch" Grid.RowSpan="4" Grid.ColumnSpan="3" Source="/Assets/Stars.jpg" Stretch="UniformToFill"/>
 
-        <Button x:ConnectionId='2' x:Name="backButton" Content="Back"                    Tag=""  FontSize="35" Margin="77,0,0,0" RequestedTheme="Dark" FontFamily="Audiowide"/>
+        <!--<Button x:Name="backButton" Content="Back" Click="back_Click" Tag=""  FontSize="35" Margin="77,0,0,0" RequestedTheme="Dark" FontFamily="Audiowide"/>-->
+        <Button x:ConnectionId='2' x:Name="backButton" Content="Back"                    VerticalAlignment="Top" FontSize="35"  FontFamily="Audiowide" RequestedTheme="Dark"/>
 
 
         <TextBlock Grid.Column="1" Grid.Row ="0" Text="Levels" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="55" FontFamily="Audiowide" RequestedTheme="Dark" ></TextBlock>
 
-        <Image Source ="/Assets/levels.png" Grid.Column="1" Grid.RowSpan="2" Grid.Row="1" Margin="0,10,0,0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
-        <!--<Image Source ="/Assets/level_0.png" Grid.Column="0" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center"> </Image>
-
-        <Image Source ="/Assets/level_1.png" Grid.Column="1" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center"></Image>
-
-        <Image Source ="/Assets/level_2.png" Grid.Column="2" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center"></Image>
-
-        <Image Source ="/Assets/level_3.png" Grid.Column="0" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center"></Image>
-
-        <Image Source ="/Assets/level_4.png" Grid.Column="1" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center"></Image>
-
-        <Image Source ="/Assets/level_5.png" Grid.Column="2" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center"></Image>-->
-
+        <!--<Image Source ="/Assets/levels.png" Grid.Column="1" Grid.RowSpan="2" Grid.Row="1" Margin="0,10,0,0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>-->
+        <Button x:ConnectionId='3' Grid.Column="0" Grid.Row="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="50"                              Tag = "1"></Button>
+        <Button x:ConnectionId='4' Grid.Column="1" Grid.Row="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="50"                              Tag = "2"></Button>
+        <Button x:ConnectionId='5' Grid.Column="2" Grid.Row="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="50"                              Tag = "3"></Button>
+        <Button x:ConnectionId='6' Grid.Column="0" Grid.Row="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="50"                              Tag = "4"></Button>
+        <Button x:ConnectionId='7' Grid.Column="1" Grid.Row="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="50"                              Tag = "5"></Button>
+        <Button x:ConnectionId='8' Grid.Column="2" Grid.Row="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="50"                              Tag = "6"></Button>
+                                                                                                                                 
         <Viewbox Grid.Row="3" RequestedTheme="Dark">
             <StackPanel Grid.Row="3" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="50,20,0,20">
                 <StackPanel Orientation="Horizontal">

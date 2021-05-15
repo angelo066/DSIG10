@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Reflection;
 using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
@@ -36,18 +37,49 @@ namespace AstralChartGame
             Button button = (Button)sender;
             string code = button.Tag.ToString();
 
-            switch (code){
-                case "Menu":{
-                     Frame.Navigate(typeof(Menu));
-                }
-                break;
-                case "Pause":{
-                     Frame.Navigate(typeof(Pause));
-                }
-                break;
-                default:
-                    break;
+            Type n = GetTypeByString(code, this.GetType().GetTypeInfo().Assembly);
+            Frame.Navigate(n);
+        }
+        private void Back_Click(object sender, RoutedEventArgs e)
+        {
+            On_BackRequested();
+        }
+
+        private bool On_BackRequested()
+        {
+            if (this.Frame.CanGoBack)
+            {
+                this.Frame.GoBack();
+                return true;
             }
+            return false;
+        }
+
+        private void onLevelSelecte_click(object sender, RoutedEventArgs e){
+            Button button = (Button)sender;
+            string code = button.Tag.ToString();
+
+            int stage = Int32.Parse(code);
+            if (stage <= 6 && stage > 0){
+                string level = "Lev" + code;
+                //Frame.Navigate(typeof(Pause));
+                Type n = GetTypeByString(level, this.GetType().GetTypeInfo().Assembly);
+                Frame.Navigate(n);
+            }
+        }
+
+        public static Type GetTypeByString(string type, Assembly lookIn)
+        {
+            var types = lookIn.DefinedTypes.Where(t => t.Name == type && t.IsSubclassOf(typeof(Windows.UI.Xaml.Controls.Page)));
+            if (types.Count() == 0)
+            {
+                throw new ArgumentException("The type you were looking for was not found", "type");
+            }
+            else if (types.Count() > 1)
+            {
+                throw new ArgumentException("The type you were looking for was found multiple times.", "type");
+            }
+            return types.First().AsType();
         }
     }
 }

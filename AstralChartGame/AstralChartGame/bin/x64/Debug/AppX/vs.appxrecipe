@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>DESKTOP-13JPGRC</Machine>
-    <WindowsUser>Ángel</WindowsUser>
+    <Machine>DESKTOP-2B5383U</Machine>
+    <WindowsUser>jd</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
@@ -10,7 +10,7 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>889312bc-335e-4dcc-bce7-5b7cddc06ed1</PackageIdentityName>
     <PackageIdentityPublisher>CN=Ángel</PackageIdentityPublisher>
-    <IntermediateOutputPath>D:\Universidad\Uni\Segundo\SegundoCuatri\DSI\DSIProyecto\DSIG10\AstralChartGame\AstralChartGame\obj\x64\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\jd\Desktop\Uni\Segundo\2do4\DSI\ProyectoDSI\DSIG10\DSIG10-\AstralChartGame\AstralChartGame\obj\x64\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,8 +18,8 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>D:\Universidad\Uni\Segundo\SegundoCuatri\DSI\DSIProyecto\DSIG10\AstralChartGame\AstralChartGame\bin\x64\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>4F2AE9A92A9B15C7297BCCFF020EB8E37917119CA415ED53D93F711468857214</RegisteredManifestChecksum>
+    <LayoutDir>C:\Users\jd\Desktop\Uni\Segundo\2do4\DSI\ProyectoDSI\DSIG10\DSIG10-\AstralChartGame\AstralChartGame\bin\x64\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>2F7CADA3D639E817F4AFB0FD9F98B1B8FD5189D7FADC22349C3C3583751EFD95</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>889312bc-335e-4dcc-bce7-5b7cddc06ed1_1.0.0.0_x64__wx0ghef5wrbww</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>889312bc-335e-4dcc-bce7-5b7cddc06ed1_wx0ghef5wrbww!App</RegisteredUserModeAppID>
     <RegisteredPackageID>889312bc-335e-4dcc-bce7-5b7cddc06ed1</RegisteredPackageID>
@@ -27,16 +27,16 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="D:\Universidad\Uni\Segundo\SegundoCuatri\DSI\DSIProyecto\DSIG10\AstralChartGame\AstralChartGame\bin\x64\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\jd\Desktop\Uni\Segundo\2do4\DSI\ProyectoDSI\DSIG10\DSIG10-\AstralChartGame\AstralChartGame\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-05-14T23:42:50.523</Modified>
+      <Modified>2021-05-15T01:11:14.998</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="D:\Universidad\Uni\Segundo\SegundoCuatri\DSI\DSIProyecto\DSIG10\AstralChartGame\AstralChartGame\bin\x64\Debug\AstralChartGame.exe">
+    <AppxPackagedFile Include="C:\Users\jd\Desktop\Uni\Segundo\2do4\DSI\ProyectoDSI\DSIG10\DSIG10-\AstralChartGame\AstralChartGame\bin\x64\Debug\AstralChartGame.exe">
       <PackagePath>entrypoint\AstralChartGame.exe</PackagePath>
-      <Modified>2021-05-14T23:42:50.130</Modified>
+      <Modified>2021-05-15T01:11:14.562</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\microsoft.csharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -494,139 +494,163 @@
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
       <Modified>2016-06-11T21:15:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Universidad\Uni\Segundo\SegundoCuatri\DSI\DSIProyecto\DSIG10\AstralChartGame\AstralChartGame\Assets\1037185.png">
+    <AppxPackagedFile Include="C:\Users\jd\Desktop\Uni\Segundo\2do4\DSI\ProyectoDSI\DSIG10\DSIG10-\AstralChartGame\AstralChartGame\Assets\1037185.png">
       <PackagePath>Assets\1037185.png</PackagePath>
-      <Modified>2021-05-11T01:18:22.477</Modified>
+      <Modified>2021-05-11T02:18:49.370</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Universidad\Uni\Segundo\SegundoCuatri\DSI\DSIProyecto\DSIG10\AstralChartGame\AstralChartGame\Assets\1211807.png">
+    <AppxPackagedFile Include="C:\Users\jd\Desktop\Uni\Segundo\2do4\DSI\ProyectoDSI\DSIG10\DSIG10-\AstralChartGame\AstralChartGame\Assets\1211807.png">
       <PackagePath>Assets\1211807.png</PackagePath>
-      <Modified>2021-05-11T01:20:09.512</Modified>
+      <Modified>2021-05-11T02:18:49.370</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Universidad\Uni\Segundo\SegundoCuatri\DSI\DSIProyecto\DSIG10\AstralChartGame\AstralChartGame\Assets\313438-200.png">
+    <AppxPackagedFile Include="C:\Users\jd\Desktop\Uni\Segundo\2do4\DSI\ProyectoDSI\DSIG10\DSIG10-\AstralChartGame\AstralChartGame\Assets\313438-200.png">
       <PackagePath>Assets\313438-200.png</PackagePath>
-      <Modified>2021-05-11T01:17:59.816</Modified>
+      <Modified>2021-05-11T02:18:49.361</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Universidad\Uni\Segundo\SegundoCuatri\DSI\DSIProyecto\DSIG10\AstralChartGame\AstralChartGame\Assets\cuaderno.png">
+    <AppxPackagedFile Include="C:\Users\jd\Desktop\Uni\Segundo\2do4\DSI\ProyectoDSI\DSIG10\DSIG10-\AstralChartGame\AstralChartGame\Assets\cuaderno.png">
       <PackagePath>Assets\cuaderno.png</PackagePath>
-      <Modified>2021-05-11T01:55:34.607</Modified>
+      <Modified>2021-05-11T02:18:49.362</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Universidad\Uni\Segundo\SegundoCuatri\DSI\DSIProyecto\DSIG10\AstralChartGame\AstralChartGame\Assets\descarga.png">
+    <AppxPackagedFile Include="C:\Users\jd\Desktop\Uni\Segundo\2do4\DSI\ProyectoDSI\DSIG10\DSIG10-\AstralChartGame\AstralChartGame\Assets\descarga.png">
       <PackagePath>Assets\descarga.png</PackagePath>
-      <Modified>2021-05-11T01:18:11.612</Modified>
+      <Modified>2021-05-11T02:18:49.361</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Universidad\Uni\Segundo\SegundoCuatri\DSI\DSIProyecto\DSIG10\AstralChartGame\AstralChartGame\Assets\levels.png">
+    <AppxPackagedFile Include="C:\Users\jd\Desktop\Uni\Segundo\2do4\DSI\ProyectoDSI\DSIG10\DSIG10-\AstralChartGame\AstralChartGame\Assets\levels.png">
       <PackagePath>Assets\levels.png</PackagePath>
-      <Modified>2021-05-11T02:10:11.784</Modified>
+      <Modified>2021-05-11T02:18:49.362</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Universidad\Uni\Segundo\SegundoCuatri\DSI\DSIProyecto\DSIG10\AstralChartGame\AstralChartGame\Assets\off.png">
+    <AppxPackagedFile Include="C:\Users\jd\Desktop\Uni\Segundo\2do4\DSI\ProyectoDSI\DSIG10\DSIG10-\AstralChartGame\AstralChartGame\Assets\off.png">
       <PackagePath>Assets\off.png</PackagePath>
-      <Modified>2021-05-11T01:39:34.616</Modified>
+      <Modified>2021-05-11T02:18:49.372</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Universidad\Uni\Segundo\SegundoCuatri\DSI\DSIProyecto\DSIG10\AstralChartGame\AstralChartGame\Assets\options.png">
+    <AppxPackagedFile Include="C:\Users\jd\Desktop\Uni\Segundo\2do4\DSI\ProyectoDSI\DSIG10\DSIG10-\AstralChartGame\AstralChartGame\Assets\options.png">
       <PackagePath>Assets\options.png</PackagePath>
-      <Modified>2021-05-11T01:28:46.295</Modified>
+      <Modified>2021-05-11T02:18:49.369</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Universidad\Uni\Segundo\SegundoCuatri\DSI\DSIProyecto\DSIG10\AstralChartGame\AstralChartGame\Assets\Pause3.png">
+    <AppxPackagedFile Include="C:\Users\jd\Desktop\Uni\Segundo\2do4\DSI\ProyectoDSI\DSIG10\DSIG10-\AstralChartGame\AstralChartGame\Assets\Pause3.png">
       <PackagePath>Assets\Pause3.png</PackagePath>
-      <Modified>2021-05-11T01:16:36.293</Modified>
+      <Modified>2021-05-11T02:18:49.365</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Universidad\Uni\Segundo\SegundoCuatri\DSI\DSIProyecto\DSIG10\AstralChartGame\AstralChartGame\Assets\Rb859d73f1b1db5da474c6fd29779329c.png">
+    <AppxPackagedFile Include="C:\Users\jd\Desktop\Uni\Segundo\2do4\DSI\ProyectoDSI\DSIG10\DSIG10-\AstralChartGame\AstralChartGame\Assets\Rb859d73f1b1db5da474c6fd29779329c.png">
       <PackagePath>Assets\Rb859d73f1b1db5da474c6fd29779329c.png</PackagePath>
-      <Modified>2021-05-11T01:17:31.249</Modified>
+      <Modified>2021-05-11T02:18:49.365</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Universidad\Uni\Segundo\SegundoCuatri\DSI\DSIProyecto\DSIG10\AstralChartGame\AstralChartGame\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\jd\Desktop\Uni\Segundo\2do4\DSI\ProyectoDSI\DSIG10\DSIG10-\AstralChartGame\AstralChartGame\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2019-09-20T09:17:20.889</Modified>
+      <Modified>2021-05-10T23:11:44.440</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Universidad\Uni\Segundo\SegundoCuatri\DSI\DSIProyecto\DSIG10\AstralChartGame\AstralChartGame\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\jd\Desktop\Uni\Segundo\2do4\DSI\ProyectoDSI\DSIG10\DSIG10-\AstralChartGame\AstralChartGame\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-09-20T09:17:20.889</Modified>
+      <Modified>2021-05-10T23:11:44.443</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Universidad\Uni\Segundo\SegundoCuatri\DSI\DSIProyecto\DSIG10\AstralChartGame\AstralChartGame\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\jd\Desktop\Uni\Segundo\2do4\DSI\ProyectoDSI\DSIG10\DSIG10-\AstralChartGame\AstralChartGame\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-09-20T09:17:20.889</Modified>
+      <Modified>2021-05-10T23:11:44.442</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Universidad\Uni\Segundo\SegundoCuatri\DSI\DSIProyecto\DSIG10\AstralChartGame\AstralChartGame\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\jd\Desktop\Uni\Segundo\2do4\DSI\ProyectoDSI\DSIG10\DSIG10-\AstralChartGame\AstralChartGame\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-09-20T09:17:20.889</Modified>
+      <Modified>2021-05-10T23:11:44.443</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Universidad\Uni\Segundo\SegundoCuatri\DSI\DSIProyecto\DSIG10\AstralChartGame\AstralChartGame\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\jd\Desktop\Uni\Segundo\2do4\DSI\ProyectoDSI\DSIG10\DSIG10-\AstralChartGame\AstralChartGame\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-09-20T09:17:20.889</Modified>
+      <Modified>2021-05-10T23:11:44.441</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Universidad\Uni\Segundo\SegundoCuatri\DSI\DSIProyecto\DSIG10\AstralChartGame\AstralChartGame\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\jd\Desktop\Uni\Segundo\2do4\DSI\ProyectoDSI\DSIG10\DSIG10-\AstralChartGame\AstralChartGame\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-09-20T09:17:20.889</Modified>
+      <Modified>2021-05-10T23:11:44.444</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Universidad\Uni\Segundo\SegundoCuatri\DSI\DSIProyecto\DSIG10\AstralChartGame\AstralChartGame\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\jd\Desktop\Uni\Segundo\2do4\DSI\ProyectoDSI\DSIG10\DSIG10-\AstralChartGame\AstralChartGame\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-09-20T09:17:20.889</Modified>
+      <Modified>2021-05-10T23:11:44.442</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Universidad\Uni\Segundo\SegundoCuatri\DSI\DSIProyecto\DSIG10\AstralChartGame\AstralChartGame\Assets\sea.jpg">
+    <AppxPackagedFile Include="C:\Users\jd\Desktop\Uni\Segundo\2do4\DSI\ProyectoDSI\DSIG10\DSIG10-\AstralChartGame\AstralChartGame\Assets\sea.jpg">
       <PackagePath>Assets\sea.jpg</PackagePath>
-      <Modified>2021-05-11T01:14:58.036</Modified>
+      <Modified>2021-05-11T02:18:49.367</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Universidad\Uni\Segundo\SegundoCuatri\DSI\DSIProyecto\DSIG10\AstralChartGame\AstralChartGame\Assets\Stars.jpg">
+    <AppxPackagedFile Include="C:\Users\jd\Desktop\Uni\Segundo\2do4\DSI\ProyectoDSI\DSIG10\DSIG10-\AstralChartGame\AstralChartGame\Assets\Stars.jpg">
       <PackagePath>Assets\Stars.jpg</PackagePath>
-      <Modified>2021-05-10T23:46:25.696</Modified>
+      <Modified>2021-05-11T02:18:49.373</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Universidad\Uni\Segundo\SegundoCuatri\DSI\DSIProyecto\DSIG10\AstralChartGame\AstralChartGame\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\jd\Desktop\Uni\Segundo\2do4\DSI\ProyectoDSI\DSIG10\DSIG10-\AstralChartGame\AstralChartGame\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2021-05-10T23:07:56.403</Modified>
+      <Modified>2021-05-10T23:11:44.462</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Universidad\Uni\Segundo\SegundoCuatri\DSI\DSIProyecto\DSIG10\AstralChartGame\AstralChartGame\Assets\fonts\Audiowide-Regular.ttf">
+    <AppxPackagedFile Include="C:\Users\jd\Desktop\Uni\Segundo\2do4\DSI\ProyectoDSI\DSIG10\DSIG10-\AstralChartGame\AstralChartGame\Assets\fonts\Audiowide-Regular.ttf">
       <PackagePath>Assets\fonts\Audiowide-Regular.ttf</PackagePath>
-      <Modified>2021-05-11T01:06:58.183</Modified>
+      <Modified>2021-05-11T00:40:53.492</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Universidad\Uni\Segundo\SegundoCuatri\DSI\DSIProyecto\DSIG10\AstralChartGame\AstralChartGame\bin\x64\Debug\AstralChartGame.xr.xml">
+    <AppxPackagedFile Include="C:\Users\jd\Desktop\Uni\Segundo\2do4\DSI\ProyectoDSI\DSIG10\DSIG10-\AstralChartGame\AstralChartGame\bin\x64\Debug\AstralChartGame.xr.xml">
       <PackagePath>AstralChartGame.xr.xml</PackagePath>
-      <Modified>2021-05-14T23:35:37.612</Modified>
+      <Modified>2021-05-15T01:06:43.976</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Universidad\Uni\Segundo\SegundoCuatri\DSI\DSIProyecto\DSIG10\AstralChartGame\AstralChartGame\bin\x64\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\jd\Desktop\Uni\Segundo\2do4\DSI\ProyectoDSI\DSIG10\DSIG10-\AstralChartGame\AstralChartGame\bin\x64\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2021-05-14T23:42:49.970</Modified>
+      <Modified>2021-05-15T01:11:14.504</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Universidad\Uni\Segundo\SegundoCuatri\DSI\DSIProyecto\DSIG10\AstralChartGame\AstralChartGame\bin\x64\Debug\GameState.xbf">
+    <AppxPackagedFile Include="C:\Users\jd\Desktop\Uni\Segundo\2do4\DSI\ProyectoDSI\DSIG10\DSIG10-\AstralChartGame\AstralChartGame\bin\x64\Debug\GameState.xbf">
       <PackagePath>GameState.xbf</PackagePath>
-      <Modified>2021-05-14T23:42:49.970</Modified>
+      <Modified>2021-05-15T01:11:14.504</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Universidad\Uni\Segundo\SegundoCuatri\DSI\DSIProyecto\DSIG10\AstralChartGame\AstralChartGame\bin\x64\Debug\Levels.xbf">
+    <AppxPackagedFile Include="C:\Users\jd\Desktop\Uni\Segundo\2do4\DSI\ProyectoDSI\DSIG10\DSIG10-\AstralChartGame\AstralChartGame\bin\x64\Debug\Levels.xbf">
       <PackagePath>Levels.xbf</PackagePath>
-      <Modified>2021-05-14T23:42:49.970</Modified>
+      <Modified>2021-05-15T01:11:14.504</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Universidad\Uni\Segundo\SegundoCuatri\DSI\DSIProyecto\DSIG10\AstralChartGame\AstralChartGame\bin\x64\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\jd\Desktop\Uni\Segundo\2do4\DSI\ProyectoDSI\DSIG10\DSIG10-\AstralChartGame\AstralChartGame\bin\x64\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2021-05-14T23:42:49.970</Modified>
+      <Modified>2021-05-15T01:11:14.504</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Universidad\Uni\Segundo\SegundoCuatri\DSI\DSIProyecto\DSIG10\AstralChartGame\AstralChartGame\bin\x64\Debug\Menu.xbf">
+    <AppxPackagedFile Include="C:\Users\jd\Desktop\Uni\Segundo\2do4\DSI\ProyectoDSI\DSIG10\DSIG10-\AstralChartGame\AstralChartGame\bin\x64\Debug\Menu.xbf">
       <PackagePath>Menu.xbf</PackagePath>
-      <Modified>2021-05-14T23:42:49.970</Modified>
+      <Modified>2021-05-15T01:11:14.504</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Universidad\Uni\Segundo\SegundoCuatri\DSI\DSIProyecto\DSIG10\AstralChartGame\AstralChartGame\bin\x64\Debug\OptionsState.xbf">
+    <AppxPackagedFile Include="C:\Users\jd\Desktop\Uni\Segundo\2do4\DSI\ProyectoDSI\DSIG10\DSIG10-\AstralChartGame\AstralChartGame\bin\x64\Debug\OptionsState.xbf">
       <PackagePath>OptionsState.xbf</PackagePath>
-      <Modified>2021-05-14T23:42:49.969</Modified>
+      <Modified>2021-05-15T01:11:14.500</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Universidad\Uni\Segundo\SegundoCuatri\DSI\DSIProyecto\DSIG10\AstralChartGame\AstralChartGame\bin\x64\Debug\Pause.xbf">
+    <AppxPackagedFile Include="C:\Users\jd\Desktop\Uni\Segundo\2do4\DSI\ProyectoDSI\DSIG10\DSIG10-\AstralChartGame\AstralChartGame\bin\x64\Debug\Pause.xbf">
       <PackagePath>Pause.xbf</PackagePath>
-      <Modified>2021-05-14T23:42:49.971</Modified>
+      <Modified>2021-05-15T01:11:14.504</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jd\Desktop\Uni\Segundo\2do4\DSI\ProyectoDSI\DSIG10\DSIG10-\AstralChartGame\AstralChartGame\bin\x64\Debug\Stages\Lev1.xbf">
+      <PackagePath>Stages\Lev1.xbf</PackagePath>
+      <Modified>2021-05-15T01:11:14.504</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jd\Desktop\Uni\Segundo\2do4\DSI\ProyectoDSI\DSIG10\DSIG10-\AstralChartGame\AstralChartGame\bin\x64\Debug\Stages\Lev2.xbf">
+      <PackagePath>Stages\Lev2.xbf</PackagePath>
+      <Modified>2021-05-15T01:11:14.505</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jd\Desktop\Uni\Segundo\2do4\DSI\ProyectoDSI\DSIG10\DSIG10-\AstralChartGame\AstralChartGame\bin\x64\Debug\Stages\Lev3.xbf">
+      <PackagePath>Stages\Lev3.xbf</PackagePath>
+      <Modified>2021-05-15T01:11:14.505</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jd\Desktop\Uni\Segundo\2do4\DSI\ProyectoDSI\DSIG10\DSIG10-\AstralChartGame\AstralChartGame\bin\x64\Debug\Stages\Lev4.xbf">
+      <PackagePath>Stages\Lev4.xbf</PackagePath>
+      <Modified>2021-05-15T01:11:14.505</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jd\Desktop\Uni\Segundo\2do4\DSI\ProyectoDSI\DSIG10\DSIG10-\AstralChartGame\AstralChartGame\bin\x64\Debug\Stages\Lev5.xbf">
+      <PackagePath>Stages\Lev5.xbf</PackagePath>
+      <Modified>2021-05-15T01:11:14.505</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jd\Desktop\Uni\Segundo\2do4\DSI\ProyectoDSI\DSIG10\DSIG10-\AstralChartGame\AstralChartGame\bin\x64\Debug\Stages\Lev6.xbf">
+      <PackagePath>Stages\Lev6.xbf</PackagePath>
+      <Modified>2021-05-15T01:11:14.505</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.17134.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2018-04-19T21:01:52.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Universidad\Uni\Segundo\SegundoCuatri\DSI\DSIProyecto\DSIG10\AstralChartGame\AstralChartGame\bin\x64\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\jd\Desktop\Uni\Segundo\2do4\DSI\ProyectoDSI\DSIG10\DSIG10-\AstralChartGame\AstralChartGame\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2021-05-14T23:31:35.141</Modified>
+      <Modified>2021-05-15T00:55:53.289</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Universidad\Uni\Segundo\SegundoCuatri\DSI\DSIProyecto\DSIG10\AstralChartGame\AstralChartGame\bin\x64\Debug\Core\AstralChartGame.exe">
+    <AppxPackagedFile Include="C:\Users\jd\Desktop\Uni\Segundo\2do4\DSI\ProyectoDSI\DSIG10\DSIG10-\AstralChartGame\AstralChartGame\bin\x64\Debug\Core\AstralChartGame.exe">
       <PackagePath>AstralChartGame.exe</PackagePath>
-      <Modified>2021-05-14T23:42:50.520</Modified>
+      <Modified>2021-05-15T01:11:14.995</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
@@ -659,36 +683,36 @@
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
       <Name>Microsoft.VCLibs.140.00.Debug</Name>
-      <Version>14.0.27323.0</Version>
+      <Version>14.0.29231.0</Version>
       <Architecture>ARM</Architecture>
-      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27323.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.29231.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
       <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.14.00.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
       <Name>Microsoft.VCLibs.140.00.Debug</Name>
-      <Version>14.0.27323.0</Version>
+      <Version>14.0.29231.0</Version>
       <Architecture>ARM64</Architecture>
-      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27323.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.29231.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
       <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM64\Microsoft.VCLibs.ARM64.Debug.14.00.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
       <Name>Microsoft.VCLibs.140.00.Debug</Name>
-      <Version>14.0.27323.0</Version>
+      <Version>14.0.29231.0</Version>
       <Architecture>x64</Architecture>
-      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27323.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.29231.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
       <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.14.00.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
       <Name>Microsoft.VCLibs.140.00.Debug</Name>
-      <Version>14.0.27323.0</Version>
+      <Version>14.0.29231.0</Version>
       <Architecture>x86</Architecture>
-      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27323.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.29231.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
       <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.14.00.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>

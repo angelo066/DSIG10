@@ -66,18 +66,19 @@
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Button">
       <RootProperty Name="Content" />
-      <RootProperty Name="Tag" />
-      <RootProperty Name="FontSize" />
-      <RootProperty Name="Margin" />
-      <RootProperty Name="RequestedTheme" />
-      <RootProperty Name="FontFamily" />
-      <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="FontSize" />
+      <RootProperty Name="FontFamily" />
+      <RootProperty Name="RequestedTheme" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Tag" />
       <RootProperty Name="Height" />
       <RootProperty Name="Width" />
       <RootProperty Name="Background" />
       <RootProperty Name="BorderBrush" />
       <RootProperty Name="Padding" />
+      <RootProperty Name="Style" />
       <RootEvent Name="Click" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
@@ -168,5 +169,12 @@
     </RootType>
     <RootType FullName="AstralChartGame.OptionsState" />
     <RootType FullName="AstralChartGame.Pause" />
+    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.StaticResourceExtension" />
+    <RootType FullName="AstralChartGame.Stages.Lev1" />
+    <RootType FullName="AstralChartGame.Stages.Lev2" />
+    <RootType FullName="AstralChartGame.Stages.Lev3" />
+    <RootType FullName="AstralChartGame.Stages.Lev4" />
+    <RootType FullName="AstralChartGame.Stages.Lev5" />
+    <RootType FullName="AstralChartGame.Stages.Lev6" />
   </Roots.RootTypes>
 </Roots>
