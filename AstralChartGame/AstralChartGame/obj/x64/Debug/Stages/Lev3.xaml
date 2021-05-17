@@ -13,6 +13,58 @@
         <Button x:ConnectionId='2' x:Name="BackBut"                    VerticalAlignment="Top"
                 HorizontalAlignment="Left"
                 Style="{StaticResource NavigationBackButtonNormalStyle}"/>
+
+        <Viewbox>
+            <RelativePanel Margin="100,0,400,0">
+        <Button Width="79" Height="79" Tag="Options" Margin="521,133,0,0" VerticalAlignment="Top">
+            <Button.Background>
+                <ImageBrush ImageSource="/Assets/star.png" Stretch="Uniform"/>
+            </Button.Background>
+        </Button>
+
+        <Button Width="49" Height="49" Tag="Options" Margin="852,677,0,0" VerticalAlignment="Top">
+            <Button.Background>
+                <ImageBrush ImageSource="/Assets/star.png" Stretch="Uniform"/>
+            </Button.Background>
+        </Button>
+
+        <Button Width="45" Height="45" Tag="Options" Margin="642,344,0,0" VerticalAlignment="Top">
+            <Button.Background>
+                <ImageBrush ImageSource="/Assets/star.png" Stretch="Uniform"/>
+            </Button.Background>
+        </Button>
+
+        <Button Width="45" Height="45" Tag="Options" Margin="868,242,0,0" VerticalAlignment="Top">
+            <Button.Background>
+                <ImageBrush ImageSource="/Assets/star.png" Stretch="Uniform"/>
+            </Button.Background>
+        </Button>
+
+        <Button Width="45" Height="45" Tag="Options" Margin="967,74,0,0" VerticalAlignment="Top">
+            <Button.Background>
+                <ImageBrush ImageSource="/Assets/star.png" Stretch="Uniform"/>
+            </Button.Background>
+        </Button>
+
+        <Button Width="32" Height="32" Tag="Options" Margin="1084,98,0,0" VerticalAlignment="Top">
+            <Button.Background>
+                <ImageBrush ImageSource="/Assets/star.png" Stretch="Uniform"/>
+            </Button.Background>
+        </Button>
+
+        <Button Width="43" Height="43" Tag="Options" Margin="425,391,0,0" VerticalAlignment="Top">
+            <Button.Background>
+                <ImageBrush ImageSource="/Assets/star.png" Stretch="Uniform"/>
+            </Button.Background>
+        </Button>
+
+        <Button Width="43" Height="43" Tag="Options" Margin="229,424,0,0" VerticalAlignment="Top">
+            <Button.Background>
+                <ImageBrush ImageSource="/Assets/star.png" Stretch="Uniform"/>
+            </Button.Background>
+        </Button>
+        </RelativePanel>
+        </Viewbox>
     </Grid>
 </Page>
 

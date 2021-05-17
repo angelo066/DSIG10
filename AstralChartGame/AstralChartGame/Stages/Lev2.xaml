@@ -13,5 +13,45 @@
         <Button x:Name="BackBut" Click="Back_Click" VerticalAlignment="Top"
                 HorizontalAlignment="Left"
                 Style="{StaticResource NavigationBackButtonNormalStyle}"/>
+
+        <Viewbox>
+            <RelativePanel Margin="50,0,500,50">
+        <Button Width="78" Height="78" Tag="Options" Margin="482,62,0,0" VerticalAlignment="Top">
+            <Button.Background>
+                <ImageBrush ImageSource="/Assets/star.png" Stretch="Uniform"/>
+            </Button.Background>
+        </Button>
+
+        <Button Width="78" Height="78" Tag="Options" Margin="812,389,0,0" VerticalAlignment="Top">
+            <Button.Background>
+                <ImageBrush ImageSource="/Assets/star.png" Stretch="Uniform"/>
+            </Button.Background>
+        </Button>
+
+        <Button Width="78" Height="78" Tag="Options" Margin="644,723,0,0" VerticalAlignment="Top">
+            <Button.Background>
+                <ImageBrush ImageSource="/Assets/star.png" Stretch="Uniform"/>
+            </Button.Background>
+        </Button>
+
+        <Button Width="78" Height="78" Tag="Options" Margin="851,1031,0,0" VerticalAlignment="Top">
+            <Button.Background>
+                <ImageBrush ImageSource="/Assets/star.png" Stretch="Uniform"/>
+            </Button.Background>
+        </Button>
+
+        <Button Width="78" Height="78" Tag="Options" Margin="830,132,0,0" VerticalAlignment="Top">
+            <Button.Background>
+                <ImageBrush ImageSource="/Assets/star.png" Stretch="Uniform"/>
+            </Button.Background>
+        </Button>
+
+        <Button Width="78" Height="78" Tag="Options" Margin="506,375,0,0" VerticalAlignment="Top">
+            <Button.Background>
+                <ImageBrush ImageSource="/Assets/star.png" Stretch="Uniform"/>
+            </Button.Background>
+        </Button>
+        </RelativePanel>
+        </Viewbox>
     </Grid>
 </Page>
