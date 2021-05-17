@@ -31,6 +31,8 @@ namespace AstralChartGame
         {
             Button button = (Button)sender;
             string code = button.Tag.ToString();
+            string option;
+
 
             switch (code)
             {
@@ -44,7 +46,7 @@ namespace AstralChartGame
                         Frame.Navigate(typeof(OptionsState));
                     }
                     break;
-                case "Game":
+                case "Resume":
                     {
                         Frame.Navigate(typeof(GameState));
                     }
@@ -52,6 +54,32 @@ namespace AstralChartGame
                 default:
                     break;
             }
+
+            option = "You pressed" + code;
+
+            speak(option);
+        }
+
+        private async void onButtonOver(object sender, RoutedEventArgs e)
+        {
+            Button button = (Button)sender;
+            string code = button.Tag.ToString();
+
+            string option = "You are on top of" + code;
+
+            speak(option);
+        }
+
+        private async void speak(string option)
+        {
+            MediaElement mediaElement = new MediaElement();
+            var synth = new Windows.Media.SpeechSynthesis.SpeechSynthesizer();
+
+            Windows.Media.SpeechSynthesis.SpeechSynthesisStream stream =
+                await synth.SynthesizeTextToStreamAsync(option);
+
+            mediaElement.SetSource(stream, stream.ContentType);
+            mediaElement.Play();
         }
     }
 }

@@ -33,7 +33,7 @@ namespace AstralChartGame
         {
             Button button = (Button)sender;
             string code = button.Tag.ToString();
-            string option = "";
+            string option;
 
             switch (code)
             {
