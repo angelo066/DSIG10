@@ -13,6 +13,34 @@
         <Button x:ConnectionId='2' x:Name="BackBut"                    VerticalAlignment="Top"
                 HorizontalAlignment="Left"
                 Style="{StaticResource NavigationBackButtonNormalStyle}"/>
+
+        <Viewbox>
+            <RelativePanel Margin="100,0,400,0">
+                <Button Width="78" Height="78" Tag="Options" Margin="608,82,0,0" VerticalAlignment="Top">
+                    <Button.Background>
+                        <ImageBrush ImageSource="/Assets/star.png" Stretch="Uniform"/>
+                    </Button.Background>
+                </Button>
+
+                <Button Width="78" Height="78" Tag="Options" Margin="521,529,0,113" VerticalAlignment="Top">
+                    <Button.Background>
+                        <ImageBrush ImageSource="/Assets/star.png" Stretch="Uniform"/>
+                    </Button.Background>
+                </Button>
+
+                <Button Width="78" Height="78" Tag="Options" Margin="773,296,0,0" VerticalAlignment="Top">
+                    <Button.Background>
+                        <ImageBrush ImageSource="/Assets/star.png" Stretch="Uniform"/>
+                    </Button.Background>
+                </Button>
+
+                <Button Width="78" Height="78" Tag="Options" Margin="360,239,0,0" VerticalAlignment="Top">
+                    <Button.Background>
+                        <ImageBrush ImageSource="/Assets/star.png" Stretch="Uniform"/>
+                    </Button.Background>
+                </Button>
+            </RelativePanel>
+        </Viewbox>
     </Grid>
 </Page>
 

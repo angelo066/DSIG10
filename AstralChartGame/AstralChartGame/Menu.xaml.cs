@@ -33,15 +33,26 @@ namespace AstralChartGame
 
         }
 
-        private void onButtonClick(object sender, RoutedEventArgs e)
+        private async void onButtonClick(object sender, RoutedEventArgs e)
         {
             Button button = (Button)sender;
             string code = button.Tag.ToString();
+            string option;
 
             switch (code)
             {
                 case "Exit":
                     {
+                        option = "You pressed Exit";
+                        MediaElement mediaElement = new MediaElement();
+                        var synth = new Windows.Media.SpeechSynthesis.SpeechSynthesizer();
+
+                        Windows.Media.SpeechSynthesis.SpeechSynthesisStream stream =
+                            await synth.SynthesizeSsmlToStreamAsync(option);
+
+                        mediaElement.SetSource(stream, stream.ContentType);
+                        mediaElement.Play();
+
                         CoreApplication.Exit();
                     }
                     break;
