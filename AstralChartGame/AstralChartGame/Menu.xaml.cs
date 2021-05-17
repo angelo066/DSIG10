@@ -23,6 +23,8 @@ namespace AstralChartGame
     /// </summary>
     public sealed partial class Menu : Page
     {
+
+        MediaElement mediaElement = new MediaElement();
         public Menu()
         {
             this.InitializeComponent();
@@ -34,6 +36,8 @@ namespace AstralChartGame
             Button button = (Button)sender;
             string code = button.Tag.ToString();
             string option;
+
+            mediaElement.Stop();
 
             switch (code)
             {
@@ -74,7 +78,7 @@ namespace AstralChartGame
 
         private async void speak(string option)
         {
-            MediaElement mediaElement = new MediaElement();
+            //mediaElement = new MediaElement();
             var synth = new Windows.Media.SpeechSynthesis.SpeechSynthesizer();
 
             Windows.Media.SpeechSynthesis.SpeechSynthesisStream stream =
@@ -82,6 +86,11 @@ namespace AstralChartGame
 
             mediaElement.SetSource(stream, stream.ContentType);
             mediaElement.Play();
+        }
+
+        private void onButtonExited(object sender, RoutedEventArgs e)
+        {
+            mediaElement.Stop();
         }
 
     }

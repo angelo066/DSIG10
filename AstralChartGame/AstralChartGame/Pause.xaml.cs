@@ -23,6 +23,8 @@ namespace AstralChartGame
     /// </summary>
     public sealed partial class Pause : Page
     {
+        MediaElement mediaElement = new MediaElement();
+
         public Pause()
         {
             this.InitializeComponent();
@@ -33,11 +35,13 @@ namespace AstralChartGame
             string code = button.Tag.ToString();
             string option;
 
+            mediaElement.Stop();
 
             switch (code)
             {
                 case "Exit":
                     {
+
                         CoreApplication.Exit();
                     }
                     break;
@@ -70,9 +74,14 @@ namespace AstralChartGame
             speak(option);
         }
 
+        private void onButtonExited(object sender, RoutedEventArgs e)
+        {
+            mediaElement.Stop();
+        }
+
         private async void speak(string option)
         {
-            MediaElement mediaElement = new MediaElement();
+            //mediaElement = new MediaElement();
             var synth = new Windows.Media.SpeechSynthesis.SpeechSynthesizer();
 
             Windows.Media.SpeechSynthesis.SpeechSynthesisStream stream =
