@@ -1,1 +1,1 @@
-D:\Universidad\Uni\Segundo\SegundoCuatri\DSI\DSIProyecto\DSIG10\AstralChartGame\AstralChartGame\AstralChartGame.csproj;x64
+C:\Users\jd\Desktop\Uni\Segundo\2do4\DSI\ProyectoDSI\DSIG10\DSIG10-\AstralChartGame\AstralChartGame\AstralChartGame.csproj;x64

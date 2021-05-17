@@ -15,8 +15,8 @@
                 Style="{StaticResource NavigationBackButtonNormalStyle}"/>
 
         <Viewbox>
-            <RelativePanel Margin="100,0,400,0">
-                <Button Width="78" Height="78" Tag="Options" Margin="608,82,0,0" VerticalAlignment="Top">
+            <RelativePanel Margin="100,0,400,60">
+                <Button Width="78" Height="78" Tag="Options" Margin="700,74,0,0" VerticalAlignment="Top">
                     <Button.Background>
                         <ImageBrush ImageSource="/Assets/star.png" Stretch="Uniform"/>
                     </Button.Background>
@@ -28,13 +28,108 @@
                     </Button.Background>
                 </Button>
 
-                <Button Width="78" Height="78" Tag="Options" Margin="773,296,0,0" VerticalAlignment="Top">
+                <Button Width="62" Height="62" Tag="Options" Margin="739,239,0,0" VerticalAlignment="Top">
                     <Button.Background>
                         <ImageBrush ImageSource="/Assets/star.png" Stretch="Uniform"/>
                     </Button.Background>
                 </Button>
 
                 <Button Width="78" Height="78" Tag="Options" Margin="360,239,0,0" VerticalAlignment="Top">
+                    <Button.Background>
+                        <ImageBrush ImageSource="/Assets/star.png" Stretch="Uniform"/>
+                    </Button.Background>
+                </Button>
+                <Button Width="62" Height="62" Tag="Options" Margin="677,506,0,0" VerticalAlignment="Top">
+                    <Button.Background>
+                        <ImageBrush ImageSource="/Assets/star.png" Stretch="Uniform"/>
+                    </Button.Background>
+                </Button>
+                <Button Width="78" Height="78" Tag="Options" Margin="708,893,0,0" VerticalAlignment="Top">
+                    <Button.Background>
+                        <ImageBrush ImageSource="/Assets/star.png" Stretch="Uniform"/>
+                    </Button.Background>
+                </Button>
+                <Button Width="108" Height="108" Tag="Options" Margin="834,1051,0,0" VerticalAlignment="Top">
+                    <Button.Background>
+                        <ImageBrush ImageSource="/Assets/star.png" Stretch="Uniform"/>
+                    </Button.Background>
+                </Button>
+                <Button Width="78" Height="78" Tag="Options" Margin="1216,854,0,0" VerticalAlignment="Top">
+                    <Button.Background>
+                        <ImageBrush ImageSource="/Assets/star.png" Stretch="Uniform"/>
+                    </Button.Background>
+                </Button>
+                <Button Width="78" Height="78" Tag="Options" Margin="1274,937,0,0" VerticalAlignment="Top">
+                    <Button.Background>
+                        <ImageBrush ImageSource="/Assets/star.png" Stretch="Uniform"/>
+                    </Button.Background>
+                </Button>
+                <Button Width="98" Height="98" Tag="Options" Margin="1560,1105,0,0" VerticalAlignment="Top">
+                    <Button.Background>
+                        <ImageBrush ImageSource="/Assets/star.png" Stretch="Uniform"/>
+                    </Button.Background>
+                </Button>
+                <Button Width="88" Height="88" Tag="Options" Margin="1147,1651,0,0" VerticalAlignment="Top">
+                    <Button.Background>
+                        <ImageBrush ImageSource="/Assets/star.png" Stretch="Uniform"/>
+                    </Button.Background>
+                </Button>
+                <Button Width="82" Height="82" Tag="Options" Margin="1293,1593,0,0" VerticalAlignment="Top">
+                    <Button.Background>
+                        <ImageBrush ImageSource="/Assets/star.png" Stretch="Uniform"/>
+                    </Button.Background>
+                </Button>
+                <Button Width="84" Height="84" Tag="Options" Margin="1424,1523,0,0" VerticalAlignment="Top">
+                    <Button.Background>
+                        <ImageBrush ImageSource="/Assets/star.png" Stretch="Uniform"/>
+                    </Button.Background>
+                </Button>
+                <Button Width="84" Height="84" Tag="Options" Margin="2078,1119,0,0" VerticalAlignment="Top">
+                    <Button.Background>
+                        <ImageBrush ImageSource="/Assets/star.png" Stretch="Uniform"/>
+                    </Button.Background>
+                </Button>
+                <Button Width="84" Height="84" Tag="Options" Margin="2036,893,0,0" VerticalAlignment="Top">
+                    <Button.Background>
+                        <ImageBrush ImageSource="/Assets/star.png" Stretch="Uniform"/>
+                    </Button.Background>
+                </Button>
+                <Button Width="84" Height="84" Tag="Options" Margin="1898,783,0,0" VerticalAlignment="Top">
+                    <Button.Background>
+                        <ImageBrush ImageSource="/Assets/star.png" Stretch="Uniform"/>
+                    </Button.Background>
+                </Button>
+                <Button Width="84" Height="84" Tag="Options" Margin="2078,1119,0,0" VerticalAlignment="Top">
+                    <Button.Background>
+                        <ImageBrush ImageSource="/Assets/star.png" Stretch="Uniform"/>
+                    </Button.Background>
+                </Button>
+                <Button Width="80" Height="80" Tag="Options" Margin="2036,1281,0,0" VerticalAlignment="Top">
+                    <Button.Background>
+                        <ImageBrush ImageSource="/Assets/star.png" Stretch="Uniform"/>
+                    </Button.Background>
+                </Button>
+                <Button Width="80" Height="80" Tag="Options" Margin="2080,1554,0,0" VerticalAlignment="Top">
+                    <Button.Background>
+                        <ImageBrush ImageSource="/Assets/star.png" Stretch="Uniform"/>
+                    </Button.Background>
+                </Button>
+                <Button Width="64" Height="64" Tag="Options" Margin="1940,1651,0,0" VerticalAlignment="Top">
+                    <Button.Background>
+                        <ImageBrush ImageSource="/Assets/star.png" Stretch="Uniform"/>
+                    </Button.Background>
+                </Button>
+                <Button Width="73" Height="73" Tag="Options" Margin="1808,1987,0,0" VerticalAlignment="Top">
+                    <Button.Background>
+                        <ImageBrush ImageSource="/Assets/star.png" Stretch="Uniform"/>
+                    </Button.Background>
+                </Button>
+                <Button Width="124" Height="124" Tag="Options" Margin="1992,2136,0,0" VerticalAlignment="Top">
+                    <Button.Background>
+                        <ImageBrush ImageSource="/Assets/star.png" Stretch="Uniform"/>
+                    </Button.Background>
+                </Button>
+                <Button Width="73" Height="73" Tag="Options" Margin="1147,2312,0,0" VerticalAlignment="Top">
                     <Button.Background>
                         <ImageBrush ImageSource="/Assets/star.png" Stretch="Uniform"/>
                     </Button.Background>
