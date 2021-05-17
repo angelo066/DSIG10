@@ -17,7 +17,7 @@
         <Image Source="/Assets/Stars.jpg" HorizontalAlignment="Center" Stretch="Fill" VerticalAlignment="Center" Grid.ColumnSpan="10"/>
         <Viewbox VerticalAlignment="Top" Height="200" HorizontalAlignment="Center" Margin="20,0,20,0">
             <StackPanel VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0,25,0,0" RequestedTheme="Dark">
-                <Button  HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Height="100" Tag="Options" Click="onButtonClick">
+                <Button  HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Height="100" Tag="Options" Click="onButtonClick" PointerEntered="onButtonOver">
                     <Button.Background>
                         <ImageBrush ImageSource="/Assets/options.png"/>
                     </Button.Background>
@@ -31,7 +31,7 @@
         </Viewbox>
         <Viewbox HorizontalAlignment="Center" VerticalAlignment="Top" Grid.Column="2" Height="200" Margin="20,0,20,0">
         <StackPanel Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,25,0,0" RequestedTheme="Dark">
-            <Button HorizontalAlignment="Right" Height="100" VerticalAlignment="Top" Width="100" Tag="Exit" Click="onButtonClick">
+                <Button HorizontalAlignment="Right" Height="100" VerticalAlignment="Top" Width="100" Tag="Exit" Click="onButtonClick" PointerEntered="onButtonOver">
                     <Button.Background>
                         <ImageBrush ImageSource="/Assets/off.png"/>
                     </Button.Background>
@@ -40,7 +40,7 @@
         </StackPanel>
         </Viewbox>
         <Viewbox Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" Height="155">
-            <Button HorizontalAlignment="Center" VerticalAlignment="Center" Content="PLAY" Click="play_Click" FontSize="100" FontFamily="Audiowide" RequestedTheme="Dark" />
+            <Button HorizontalAlignment="Center" VerticalAlignment="Center" Content="PLAY" Click="onButtonClick" FontSize="100" FontFamily="Audiowide" RequestedTheme="Dark" Tag="Play" PointerEntered="onButtonOver"/>
         </Viewbox>
     </Grid>
 </Page>

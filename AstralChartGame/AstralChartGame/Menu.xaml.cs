@@ -28,31 +28,17 @@ namespace AstralChartGame
             this.InitializeComponent();
         }
 
-        private void play_Click(object sender, RoutedEventArgs e){
-            Frame.Navigate(typeof(Levels), "Menu");
-
-        }
 
         private async void onButtonClick(object sender, RoutedEventArgs e)
         {
             Button button = (Button)sender;
             string code = button.Tag.ToString();
-            string option;
+            string option = "";
 
             switch (code)
             {
                 case "Exit":
                     {
-                        option = "You pressed Exit";
-                        MediaElement mediaElement = new MediaElement();
-                        var synth = new Windows.Media.SpeechSynthesis.SpeechSynthesizer();
-
-                        Windows.Media.SpeechSynthesis.SpeechSynthesisStream stream =
-                            await synth.SynthesizeSsmlToStreamAsync(option);
-
-                        mediaElement.SetSource(stream, stream.ContentType);
-                        mediaElement.Play();
-
                         CoreApplication.Exit();
                     }
                     break;
@@ -61,9 +47,41 @@ namespace AstralChartGame
                         Frame.Navigate(typeof(OptionsState));
                     }
                     break;
+                case "Play":
+                    {
+                        Frame.Navigate(typeof(Levels), "Menu");
+                    }
+                    break;
                 default:
                     break;
             }
+
+            option = "You pressed" + code;
+
+            speak(option);
+
+        }
+
+        private async void onButtonOver(object sender, RoutedEventArgs e)
+        {
+            Button button = (Button)sender;
+            string code = button.Tag.ToString();
+
+            string option = "You are on top of" + code;
+
+            speak(option);
+        }
+
+        private async void speak(string option)
+        {
+            MediaElement mediaElement = new MediaElement();
+            var synth = new Windows.Media.SpeechSynthesis.SpeechSynthesizer();
+
+            Windows.Media.SpeechSynthesis.SpeechSynthesisStream stream =
+                await synth.SynthesizeTextToStreamAsync(option);
+
+            mediaElement.SetSource(stream, stream.ContentType);
+            mediaElement.Play();
         }
 
     }
