@@ -72,9 +72,9 @@ namespace AstralChartGame.Stages
                 // Create a Line  
                 Line redLine = new Line();
 
-                redLine.X1 = Level.Margin.Left + A.Margin.Left - (A.ActualWidth / 2);
+                redLine.X1 = Level.Margin.Left + A.Margin.Left - (A.ActualWidth / 1);
                 redLine.Y1 = Level.Margin.Top + A.Margin.Top + (A.ActualHeight / 2);
-                redLine.X2 = Level.Margin.Left + B.Margin.Left - (B.ActualWidth / 2);
+                redLine.X2 = Level.Margin.Left + B.Margin.Left - (B.ActualWidth / 1);
                 redLine.Y2 = Level.Margin.Top + B.Margin.Top + (B.ActualHeight / 2);
 
                 // Create a red Brush  
