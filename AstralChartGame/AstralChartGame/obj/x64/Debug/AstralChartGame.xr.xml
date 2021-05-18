@@ -124,7 +124,6 @@
     <RootType FullName="AstralChartGame.MainPage" />
     <RootType FullName="Windows.UI.Xaml.Media.ImageBrush">
       <RootProperty Name="ImageSource" />
-      <RootProperty Name="Stretch" />
     </RootType>
     <RootType FullName="AstralChartGame.Menu" />
     <RootType FullName="Windows.UI.Xaml.Controls.ScrollViewer">
@@ -145,6 +144,7 @@
       <RootProperty Name="RenderTransformOrigin" />
       <RootProperty Name="RenderTransform" />
       <RootProperty Name="VerticalAlignment" />
+      <RootEvent Name="Click" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Slider">
       <RootProperty Name="Width" />
@@ -165,6 +165,7 @@
       <RootProperty Name="FontFamily" />
       <RootProperty Name="FontSize" />
       <RootProperty Name="Items" />
+      <RootEvent Name="DropDownClosed" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ComboBoxItem">
       <RootProperty Name="Content" />
