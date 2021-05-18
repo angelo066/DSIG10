@@ -4,9 +4,19 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:AstralChartGame"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:Windows10FallCreatorsUpdate="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Page.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.ThemeDictionaries>
+                <ResourceDictionary x:Key="Default">
+                    <Windows10FallCreatorsUpdate:AcrylicBrush x:Key="Custom" BackgroundSource="Backdrop" TintOpacity="0" TintColor="#FF000000" FallbackColor="#FF008000"/>
+                </ResourceDictionary>
+            </ResourceDictionary.ThemeDictionaries>
+        </ResourceDictionary>
+    </Page.Resources>
+
 
     <Grid>
         <Grid.ColumnDefinitions>
@@ -24,16 +34,15 @@
             <RowDefinition Height="2.25*"/>
             <RowDefinition Height="2*"/>
         </Grid.RowDefinitions>
-        
+
         <Image HorizontalAlignment="Stretch" Margin="0,0,0,0" VerticalAlignment="Stretch" Grid.RowSpan="4" Grid.ColumnSpan="3" Source="/Assets/Stars.jpg" Stretch="UniformToFill"/>
 
-        <!--<Button x:Name="backButton" Content="Back" Click="back_Click" Tag=""  FontSize="35" Margin="77,0,0,0" RequestedTheme="Dark" FontFamily="Audiowide"/>-->
         <Viewbox RequestedTheme="Dark" VerticalAlignment="Top" >
-            <Button Margin="0,20,50,20" HorizontalAlignment="Left" x:Name="backButton" Content="Back" Click="Back_Click" FontSize="35"  FontFamily="Audiowide" RequestedTheme="Dark"/>
+            <Button Margin="0,30,60,30" HorizontalAlignment="Left" x:Name="backButton" Content="Back" Click="Back_Click" FontSize="35"  FontFamily="Audiowide" RequestedTheme="Dark"/>
         </Viewbox>
 
         <Viewbox RequestedTheme="Dark" Grid.Column="1" Grid.Row ="0" VerticalAlignment="Center" HorizontalAlignment="Center"  >
-        <TextBlock Margin="20" Text="Levels"  FontSize="55" FontFamily="Audiowide" RequestedTheme="Dark" ></TextBlock>
+            <TextBlock Margin="20" Text="Levels"  FontSize="55" FontFamily="Audiowide" RequestedTheme="Dark" ></TextBlock>
         </Viewbox>
 
         <Viewbox  Grid.Column="0" Grid.Row="1"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
@@ -41,25 +50,40 @@
         </Viewbox>
 
         <Viewbox Grid.Column="1" Grid.Row="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
-            <Button Content="Osa Mayor" FontFamily="Audiowide" FontSize= "35"  Margin="50" Click="onLevelSelecte_click" Tag = "2" Background="Transparent"></Button>
+            <RelativePanel>
+                <Button Content="Osa Mayor" FontFamily="Audiowide" FontSize= "35"  Margin="50" Click="onLevelSelecte_click" Tag = "2" Background="Transparent" ></Button>
+                <Border Width="317" Height="197" CornerRadius="20 20 20 20" Background="{StaticResource Custom}"/>
+            </RelativePanel>
         </Viewbox>
 
         <Viewbox Grid.Column="2" Grid.Row="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
-            <Button Content="Cygnus" FontFamily="Audiowide" FontSize= "35"  Margin="50" Click="onLevelSelecte_click" Tag = "3" Background="Transparent"></Button>
+            <RelativePanel>
+                <Button x:Name="stage3" Content="Cygnus" FontFamily="Audiowide" FontSize= "35"  Margin="50" Click="onLevelSelecte_click" Tag = "3" Background="Transparent"></Button>
+                <Border Width="266" Height="158" CornerRadius="20 20 20 20" Background="{StaticResource Custom}"/>
+            </RelativePanel>
         </Viewbox >
 
         <Viewbox Grid.Column="0" Grid.Row="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
-            <Button Content="Tauro" FontFamily="Audiowide" FontSize= "35"  Margin="50" Click="onLevelSelecte_click" Tag = "4" Background="Transparent"></Button>
+            <RelativePanel>
+                <Button Content="Tauro" FontFamily="Audiowide" FontSize= "35"  Margin="50" Click="onLevelSelecte_click" Tag = "4" Background="Transparent"></Button>
+                <Border Width="266" Height="158" CornerRadius="20 20 20 20" Background="{StaticResource Custom}"/>
+            </RelativePanel>
         </Viewbox>
 
         <Viewbox Grid.Column="1" Grid.Row="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
-            <Button Content="Draco" FontFamily="Audiowide" FontSize= "35"  Margin="50" Click="onLevelSelecte_click" Tag = "5" Background="Transparent"></Button>
+            <RelativePanel>
+                <Button Content="Draco" FontFamily="Audiowide" FontSize= "35"  Margin="50" Click="onLevelSelecte_click" Tag = "5" Background="Transparent"></Button>
+                <Border Width="266" Height="158" CornerRadius="20 20 20 20" Background="{StaticResource Custom}"/>
+            </RelativePanel>
         </Viewbox>
 
         <Viewbox Grid.Column="2" Grid.Row="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" >
-            <Button Content="Orión" FontFamily="Audiowide" FontSize= "35" Margin="50" Click="onLevelSelecte_click" Tag = "6" Background="Transparent"></Button>
+            <RelativePanel>
+                <Button Content="Orión" FontFamily="Audiowide" FontSize= "35" Margin="50" Click="onLevelSelecte_click" Tag = "6" Background="Transparent"></Button>
+                <Border Width="266" Height="158" CornerRadius="20 20 20 20" Background="{StaticResource Custom}"/>
+            </RelativePanel>
         </Viewbox>
-                                                                                                                                 
+
         <Viewbox Grid.Row="3" RequestedTheme="Dark">
             <StackPanel Grid.Row="3" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="50,20,0,20">
                 <StackPanel Orientation="Horizontal">

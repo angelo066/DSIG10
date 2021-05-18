@@ -364,3 +364,9 @@ MigrationBackup/
 
 
 AstralChartGame/AstralChartGame/obj/x64/Debug/AstralChartGame.csproj.FileListAbsolute.txt
+
+AstralChartGame/AstralChartGame/bin/x64/Debug/AppX/vs.appxrecipe
+
+AstralChartGame/AstralChartGame/bin/x64/Debug/AppX/App.xbf
+
+AstralChartGame/AstralChartGame/bin/x64/Debug/AppX/AstralChartGame.xr.xml
