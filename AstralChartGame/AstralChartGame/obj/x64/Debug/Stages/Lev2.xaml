@@ -7,7 +7,55 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-
+    <Page.Resources>
+        <Style x:Key="RefreshButtonStyle" TargetType="Button">
+            <Setter Property="Background" Value="Transparent" />
+            <Setter Property="BorderBrush" Value="Transparent" />
+            <Setter Property="FontFamily" Value="Segoe UI" />
+            <Setter Property="FontSize" Value="9" />
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Grid>
+                            <StackPanel Orientation="Vertical">
+                                <Grid Margin="0,0,0,0">
+                                    <Ellipse x:Name="ButtonEllipse" Height="40" Width="40" Fill="Transparent"
+                                            HorizontalAlignment="Center"
+                                            StrokeThickness="2" VerticalAlignment="Center" />
+                                    <TextBlock x:Name="Glyph" Text="&#xE1CE;" FontFamily="Segoe UI Symbol"
+                                            FontSize="60" HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Bold" />
+                                </Grid>
+                                <TextBlock x:Name="Content" Text="{TemplateBinding Content}"
+                                        HorizontalAlignment="Center" FontFamily="Segoe UI" FontSize="12" />
+                            </StackPanel>
+                            <VisualStateManager.VisualStateGroups>
+                                <VisualStateGroup x:Name="CommonStates">
+                                    <VisualState x:Name="Normal" />
+                                    <VisualState x:Name="PointerOver">
+                                        <Storyboard>
+                                            <ColorAnimation Duration="0" To="Gray"
+                                                    Storyboard.TargetProperty="(TextBlock.Foreground).(SolidColorBrush.Color)"
+                                                    Storyboard.TargetName="Glyph"/>
+                                        </Storyboard>
+                                    </VisualState>
+                                    <VisualState x:Name="Pressed">
+                                        <Storyboard>
+                                            <ColorAnimation Duration="0" To="Green"
+                                                    Storyboard.TargetProperty="(TextBlock.Foreground).(SolidColorBrush.Color)"
+                                                    Storyboard.TargetName="Content" />
+                                            <ColorAnimation Duration="0" To="LightBlue"
+                                                    Storyboard.TargetProperty="(TextBlock.Foreground).(SolidColorBrush.Color)"
+                                                    Storyboard.TargetName="Glyph" />
+                                        </Storyboard>
+                                    </VisualState>
+                                </VisualStateGroup>
+                            </VisualStateManager.VisualStateGroups>
+                        </Grid>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Page.Resources>
     <Grid>
         <Image HorizontalAlignment="Stretch" Margin="0,0,0,0" VerticalAlignment="Stretch" Grid.RowSpan="4" Grid.ColumnSpan="3" Source="/Assets/Stars.jpg" Stretch="UniformToFill"/>
         <Button x:ConnectionId='2' x:Name="BackBut"                    VerticalAlignment="Top"
@@ -16,41 +64,18 @@
 
         <Viewbox>
             <RelativePanel Margin="50,0,500,50">
-        <Button Width="78" Height="78" Tag="Options" Margin="482,62,0,0" VerticalAlignment="Top">
-            <Button.Background>
-                <ImageBrush ImageSource="/Assets/star.png" Stretch="Uniform"/>
-            </Button.Background>
-        </Button>
+                <Button Width="78" Height="78" Margin="482,62,0,0" VerticalAlignment="Top" Style="{StaticResource RefreshButtonStyle}"/>
 
-        <Button Width="78" Height="78" Tag="Options" Margin="812,389,0,0" VerticalAlignment="Top">
-            <Button.Background>
-                <ImageBrush ImageSource="/Assets/star.png" Stretch="Uniform"/>
-            </Button.Background>
-        </Button>
+                <Button Width="78" Height="78" Margin="812,389,0,0" VerticalAlignment="Top" Style="{StaticResource RefreshButtonStyle}"/>
 
-        <Button Width="78" Height="78" Tag="Options" Margin="644,723,0,0" VerticalAlignment="Top">
-            <Button.Background>
-                <ImageBrush ImageSource="/Assets/star.png" Stretch="Uniform"/>
-            </Button.Background>
-        </Button>
+                <Button Width="78" Height="78" Margin="644,723,0,0" VerticalAlignment="Top" Style="{StaticResource RefreshButtonStyle}"/>
 
-        <Button Width="78" Height="78" Tag="Options" Margin="851,1031,0,0" VerticalAlignment="Top">
-            <Button.Background>
-                <ImageBrush ImageSource="/Assets/star.png" Stretch="Uniform"/>
-            </Button.Background>
-        </Button>
+                <Button Width="78" Height="78" Margin="851,1031,0,0" VerticalAlignment="Top" Style="{StaticResource RefreshButtonStyle}"/>
 
-        <Button Width="78" Height="78" Tag="Options" Margin="830,132,0,0" VerticalAlignment="Top">
-            <Button.Background>
-                <ImageBrush ImageSource="/Assets/star.png" Stretch="Uniform"/>
-            </Button.Background>
-        </Button>
+                <Button Width="78" Height="78" Margin="830,132,0,0" VerticalAlignment="Top" Style="{StaticResource RefreshButtonStyle}"/>
 
-        <Button Width="78" Height="78" Tag="Options" Margin="506,375,0,0" VerticalAlignment="Top">
-            <Button.Background>
-                <ImageBrush ImageSource="/Assets/star.png" Stretch="Uniform"/>
-            </Button.Background>
-        </Button>
+                <Button Width="78" Height="78" Margin="506,375,0,0" VerticalAlignment="Top" Style="{StaticResource RefreshButtonStyle}"/>
+
         </RelativePanel>
         </Viewbox>
     </Grid>
