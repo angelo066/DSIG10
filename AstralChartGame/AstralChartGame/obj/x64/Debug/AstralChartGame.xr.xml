@@ -124,7 +124,6 @@
     <RootType FullName="AstralChartGame.MainPage" />
     <RootType FullName="Windows.UI.Xaml.Media.ImageBrush">
       <RootProperty Name="ImageSource" />
-      <RootProperty Name="Stretch" />
     </RootType>
     <RootType FullName="AstralChartGame.Menu" />
     <RootType FullName="Windows.UI.Xaml.Controls.ScrollViewer">
