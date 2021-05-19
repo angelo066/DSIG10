@@ -11,6 +11,8 @@
       <RootProperty Name="Margin" />
       <RootProperty Name="Tag" />
       <RootProperty Name="Background" />
+      <RootProperty Name="BorderThickness" />
+      <RootProperty Name="Style" />
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="RequestedTheme" />
       <RootProperty Name="VerticalAlignment" />
@@ -18,7 +20,6 @@
       <RootProperty Name="Width" />
       <RootProperty Name="BorderBrush" />
       <RootProperty Name="Padding" />
-      <RootProperty Name="Style" />
       <RootEvent Name="Click" />
       <RootEvent Name="PointerEntered" />
       <RootEvent Name="PointerExited" />
@@ -100,6 +101,10 @@
       <RootMethod Name="SetTargetName" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Media.Animation.ColorAnimation">
+      <RootProperty Name="Duration" />
+      <RootProperty Name="To" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Media.Animation.DoubleAnimation">
       <RootProperty Name="Duration" />
       <RootProperty Name="To" />
     </RootType>

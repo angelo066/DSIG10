@@ -38,7 +38,7 @@
         <Image HorizontalAlignment="Stretch" Margin="0,0,0,0" VerticalAlignment="Stretch" Grid.RowSpan="4" Grid.ColumnSpan="3" Source="/Assets/Stars.jpg" Stretch="UniformToFill"/>
 
         <Viewbox RequestedTheme="Dark" VerticalAlignment="Top" >
-            <Button Margin="0,30,60,30" HorizontalAlignment="Left" x:Name="backButton" Content="Back" Click="Back_Click" FontSize="35"  FontFamily="Audiowide" RequestedTheme="Dark"/>
+            <Button Margin="0,30,60,30" BorderThickness="10" Style="{ThemeResource ButtonRevealStyle}" Background="Transparent" HorizontalAlignment="Left" x:Name="backButton" Content="Back" Click="Back_Click" FontSize="35"  FontFamily="Audiowide" RequestedTheme="Dark"/>
         </Viewbox>
 
         <Viewbox RequestedTheme="Dark" Grid.Column="1" Grid.Row ="0" VerticalAlignment="Center" HorizontalAlignment="Center"  >

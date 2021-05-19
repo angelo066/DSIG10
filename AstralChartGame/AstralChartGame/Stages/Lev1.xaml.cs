@@ -63,10 +63,15 @@ namespace AstralChartGame.Stages
             n.Style = s;
         }
 
+
         private void select_level(object sender, RoutedEventArgs e){
 
-            int stageInLevel = 1;
-            Button n =  Utils.FindControl<Button>(Level, "star" + stageInLevel.ToString());
+            //int stageInLevel = 1;
+            //Button n =  Utils.FindControl<Button>(Level, "star" + stageInLevel.ToString());
+
+            Button star = (Button)sender;
+
+            if (star.Style == Application.Current.Resources["StarUnavailable"] as Style) return;
 
             if (A == null){
                 A = (Button)sender;
