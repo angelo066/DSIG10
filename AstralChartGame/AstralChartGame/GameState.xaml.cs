@@ -36,7 +36,7 @@ namespace AstralChartGame
 
         private void ImagenC_PointerPressed(object sender, PointerRoutedEventArgs e)
         {
-            ptrPt = e.GetCurrentPoint(MiCanvas);
+           ptrPt = e.GetCurrentPoint(MiCanvas);
             if (ptrPt.Properties.IsLeftButtonPressed) BotIzq = true;
             //Establecer Cursor
             if (ptrPt.Properties.IsRightButtonPressed) BotDer = true;

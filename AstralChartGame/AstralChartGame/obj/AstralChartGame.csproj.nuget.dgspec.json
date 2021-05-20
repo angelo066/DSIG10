@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "U:\\hlocal\\DSIG10-master\\AstralChartGame\\AstralChartGame\\AstralChartGame.csproj": {}
+    "U:\\hlocal\\DSIG10\\AstralChartGame\\AstralChartGame\\AstralChartGame.csproj": {}
   },
   "projects": {
-    "U:\\hlocal\\DSIG10-master\\AstralChartGame\\AstralChartGame\\AstralChartGame.csproj": {
+    "U:\\hlocal\\DSIG10\\AstralChartGame\\AstralChartGame\\AstralChartGame.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "U:\\hlocal\\DSIG10-master\\AstralChartGame\\AstralChartGame\\AstralChartGame.csproj",
+        "projectUniqueName": "U:\\hlocal\\DSIG10\\AstralChartGame\\AstralChartGame\\AstralChartGame.csproj",
         "projectName": "AstralChartGame",
-        "projectPath": "U:\\hlocal\\DSIG10-master\\AstralChartGame\\AstralChartGame\\AstralChartGame.csproj",
+        "projectPath": "U:\\hlocal\\DSIG10\\AstralChartGame\\AstralChartGame\\AstralChartGame.csproj",
         "packagesPath": "C:\\Users\\usuario_local\\.nuget\\packages\\",
-        "outputPath": "U:\\hlocal\\DSIG10-master\\AstralChartGame\\AstralChartGame\\obj\\",
+        "outputPath": "U:\\hlocal\\DSIG10\\AstralChartGame\\AstralChartGame\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
