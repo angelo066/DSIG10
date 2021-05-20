@@ -11,8 +11,8 @@
     <Grid Background="Transparent">
 
         <Image Source="/Assets/Stars.jpg" HorizontalAlignment="Center" Stretch="Fill" VerticalAlignment="Center" Grid.ColumnSpan="10"/>
-        <Image Source="/Assets/sea.jpg" HorizontalAlignment="Center" VerticalAlignment="Bottom" Grid.ColumnSpan="10"/>
-        <Image Source="/Assets/Pause3.png" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="0,0,0,0"/>
+        <Image Source="/Assets/sea.jpg" HorizontalAlignment="Center" Stretch="Uniform" VerticalAlignment="Bottom" Grid.ColumnSpan="10"/>
+        <Image Source="/Assets/Pause3.png" HorizontalAlignment="Stretch"  Stretch="Fill" VerticalAlignment="Stretch" Margin="0,0,0,0"/>
 
         <Viewbox  x:Name="MiCanvas">
             <Grid>
