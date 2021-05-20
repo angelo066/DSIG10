@@ -16,7 +16,7 @@
 
         <Viewbox  x:Name="MiCanvas">
             <Grid>
-                    <StackPanel VerticalAlignment="Top" HorizontalAlignment="Left" Margin="0,25,0,0" RequestedTheme="Dark">
+                <StackPanel VerticalAlignment="Top" HorizontalAlignment="Left" Margin="0,25,0,0" RequestedTheme="Dark">
                     <Button  HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Height="100" Tag="Pause" Click="onButtonClick" >
                         <Button.Background>
                             <ImageBrush ImageSource="/Assets/options.png"/>
@@ -29,12 +29,12 @@
                     </TextBlock>
                 </StackPanel>
 
-                
-                
-                <Button HorizontalAlignment="Left" Height="100" Margin="334,756,0,0" VerticalAlignment="Top" Width="100" Click="Catalejo_Page"  RenderTransformOrigin="0.526,0.557">
-                    <Image Source="/Assets/Rb859d73f1b1db5da474c6fd29779329c.png"></Image>
+
+
+                <Button Height="100" Margin="188,764,0,0" VerticalAlignment="Top" Width="100" Click="Catalejo_Page"  RenderTransformOrigin="0.526,0.557">
+                    <Image Source="/Assets/Rb859d73f1b1db5da474c6fd29779329c.png" Margin="0.6,-0.4,-0.4,0.6"></Image>
                 </Button>
-                <Image Source="/Assets/313438-200.png" HorizontalAlignment="Left" Height="100.308" Margin="463,654,0,0" VerticalAlignment="Top" Width="123.672" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
+                <Image Source="/Assets/313438-200.png" HorizontalAlignment="Left" Height="100.308" Margin="303.57,707.64,0,0" VerticalAlignment="Top" Width="123.672" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
                     <Image.RenderTransform>
                         <CompositeTransform Rotation="48.546"/>
                     </Image.RenderTransform>
@@ -49,14 +49,14 @@
                         <CompositeTransform x:Name ="CompositeT" TranslateX="0" TranslateY="0" Rotation="0" CenterX="0" CenterY="0"></CompositeTransform>
                     </ContentControl.RenderTransform>
                 </ContentControl>
-                <Image Source="/Assets/1037185.png" HorizontalAlignment="Left" Height="342" Margin="1285,400,0,0" VerticalAlignment="Top" Width="404"/>
+                <Image Source="/Assets/1037185.png" HorizontalAlignment="Left" Height="342" Margin="1030,363,0,0" VerticalAlignment="Top" Width="404"/>
                 <Image Source="/Assets/descarga.png" HorizontalAlignment="Left" Height="75.572" Margin="1334,941,0,0" VerticalAlignment="Top" Width="79.846" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
                     <Image.RenderTransform>
                         <CompositeTransform Rotation="25.516" SkewX="-17.975" TranslateX="11.501" TranslateY="4.04"/>
                     </Image.RenderTransform>
                 </Image>
-                <Button HorizontalAlignment="Left" Margin="547,748,0,0" VerticalAlignment="Top" Height="183" Width="123.404" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
-                    <TextBlock Text="THE NAUTICAL ALMANAC" TextWrapping="Wrap">
+                <Button Margin="360.75,742.04,0,0" VerticalAlignment="Top" Height="183" Width="123.404" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
+                    <TextBlock Text="THE NAUTICAL ALMANAC" TextWrapping="Wrap" Foreground="Black">
                     </TextBlock>
                     <Button.RenderTransform>
                         <CompositeTransform Rotation="47.635"/>
@@ -64,14 +64,14 @@
                 </Button>
 
                 <Button HorizontalAlignment="Left" Margin="1258,916,0,0" VerticalAlignment="Top" Height="51" Width="54.142" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
-                    <TextBlock Text="FULL SAIL" TextWrapping="Wrap"></TextBlock>
+                    <TextBlock Text="FULL SAIL" TextWrapping="Wrap" Foreground="Black"></TextBlock>
                     <Button.RenderTransform>
                         <CompositeTransform Rotation="23.353" SkewX="-17.412" TranslateX="7.842" TranslateY="1.565"/>
                     </Button.RenderTransform>
                 </Button>
 
                 <Button HorizontalAlignment="Left" Margin="1443,1020,0,0" VerticalAlignment="Top" Height="52.886" Width="90.036" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False">
-                    <TextBlock Text="CRUISING SPEED" TextWrapping="Wrap"></TextBlock>
+                    <TextBlock Text="CRUISING SPEED" TextWrapping="Wrap" Foreground="Black"></TextBlock>
                     <Button.RenderTransform>
                         <CompositeTransform Rotation="26.054" SkewX="-17.412" TranslateX="7.842" TranslateY="1.565"/>
                     </Button.RenderTransform>
@@ -82,7 +82,7 @@
                         <CompositeTransform Rotation="30.216" SkewX="19.983" TranslateX="-5.028" TranslateY="-2.928" ScaleX="0.94" ScaleY="1.064" SkewY="0"/>
                     </TextBlock.RenderTransform>
                 </TextBlock>
-                <TextBlock HorizontalAlignment="Left" Margin="1286,855,0,0" Text="PACIFIC TIME" TextWrapping="Wrap" VerticalAlignment="Top" Height="51" Width="130.713" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" FontSize="18">
+                <TextBlock Foreground="Black" HorizontalAlignment="Left" Margin="1286,855,0,0" Text="PACIFIC TIME" TextWrapping="Wrap" VerticalAlignment="Top" Height="51" Width="130.713" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" FontSize="18">
                     <TextBlock.RenderTransform>
                         <CompositeTransform Rotation="30.516" SkewX="-17.412" TranslateX="7.842" TranslateY="1.565"/>
                     </TextBlock.RenderTransform>

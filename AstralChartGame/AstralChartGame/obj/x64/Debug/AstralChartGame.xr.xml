@@ -5,7 +5,6 @@
       <RootProperty Name="Resources" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Button">
-      <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="Height" />
       <RootProperty Name="Margin" />
       <RootProperty Name="VerticalAlignment" />
@@ -14,6 +13,7 @@
       <RootProperty Name="Content" />
       <RootProperty Name="UseLayoutRounding" />
       <RootProperty Name="RenderTransform" />
+      <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="Tag" />
       <RootProperty Name="Background" />
       <RootProperty Name="FontFamily" />
@@ -82,6 +82,7 @@
       <RootProperty Name="RenderTransformOrigin" />
       <RootProperty Name="UseLayoutRounding" />
       <RootProperty Name="RenderTransform" />
+      <RootProperty Name="Foreground" />
       <RootProperty Name="Width" />
       <RootProperty Name="FocusVisualPrimaryBrush" />
       <RootProperty Name="RequestedTheme" />
