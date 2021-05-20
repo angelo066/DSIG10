@@ -75,6 +75,7 @@ namespace AstralChartGame.Stages
 
             if (A == null){
                 A = (Button)sender;
+                this.Frame.Navigate(typeof(GameState));
             }
             else if (B == null)
             {

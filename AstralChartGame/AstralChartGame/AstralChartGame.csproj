@@ -119,6 +119,9 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Catalejo.xaml.cs">
+      <DependentUpon>Catalejo.xaml</DependentUpon>
+    </Compile>
     <Compile Include="GameState.xaml.cs" />
     <Compile Include="Levels.xaml.cs">
       <DependentUpon>Levels.xaml</DependentUpon>
@@ -136,6 +139,7 @@
       <DependentUpon>Pause.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RenderTransform.cs" />
     <Compile Include="Stages\Lev1.xaml.cs">
       <DependentUpon>Lev1.xaml</DependentUpon>
     </Compile>
@@ -154,6 +158,7 @@
     <Compile Include="Stages\Lev6.xaml.cs">
       <DependentUpon>Lev6.xaml</DependentUpon>
     </Compile>
+    <Compile Include="VMDron.cs" />
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest">
@@ -164,6 +169,7 @@
     <Content Include="Assets\1037185.png" />
     <Content Include="Assets\1211807.png" />
     <Content Include="Assets\313438-200.png" />
+    <Content Include="Assets\catalejo.jpg" />
     <Content Include="Assets\cuaderno.png" />
     <Content Include="Assets\descarga.png" />
     <Content Include="Assets\levels.png" />
@@ -188,6 +194,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="Catalejo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="GameState.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
