@@ -1,31 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "G:\\Uni\\DSI\\Proyecto\\DSIG10\\AstralChartGame\\AstralChartGame\\AstralChartGame.csproj": {}
+    "U:\\hlocal\\DSIG10-master\\AstralChartGame\\AstralChartGame\\AstralChartGame.csproj": {}
   },
   "projects": {
-    "G:\\Uni\\DSI\\Proyecto\\DSIG10\\AstralChartGame\\AstralChartGame\\AstralChartGame.csproj": {
+    "U:\\hlocal\\DSIG10-master\\AstralChartGame\\AstralChartGame\\AstralChartGame.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\Uni\\DSI\\Proyecto\\DSIG10\\AstralChartGame\\AstralChartGame\\AstralChartGame.csproj",
+        "projectUniqueName": "U:\\hlocal\\DSIG10-master\\AstralChartGame\\AstralChartGame\\AstralChartGame.csproj",
         "projectName": "AstralChartGame",
-        "projectPath": "G:\\Uni\\DSI\\Proyecto\\DSIG10\\AstralChartGame\\AstralChartGame\\AstralChartGame.csproj",
-        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "G:\\Uni\\DSI\\Proyecto\\DSIG10\\AstralChartGame\\AstralChartGame\\obj\\",
+        "projectPath": "U:\\hlocal\\DSIG10-master\\AstralChartGame\\AstralChartGame\\AstralChartGame.csproj",
+        "packagesPath": "C:\\Users\\usuario_local\\.nuget\\packages\\",
+        "outputPath": "U:\\hlocal\\DSIG10-master\\AstralChartGame\\AstralChartGame\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
+          "c:\\software\\programacion\\MSVStudio2017\\Shared\\NuGetPackages",
+          "c:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\usuario_local\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "uap10.0.15063"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "c:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

@@ -29,9 +29,6 @@ namespace AstralChartGame
         int Sel = -1;
         bool BotDer = false, BotIzq = false;
 
-        CoreCursor pin;
-        CoreCursor normal;
-
         public GameState()
         {
             this.InitializeComponent();
@@ -45,38 +42,45 @@ namespace AstralChartGame
             if (ptrPt.Properties.IsRightButtonPressed) BotDer = true;
         }
 
-        private void ImagenC_PointerMoved(object sender, PointerRoutedEventArgs e)
-        {
+        private void ImagenC_PointerMoved(object sender, PointerRoutedEventArgs e) {
             PointerPoint NewptrPt = e.GetCurrentPoint(MiCanvas);
-            if ((Sel >= 0) && ((BotIzq || BotDer)))
-                Window.Current.CoreWindow.PointerCursor = pin;
-            {
-                if (BotIzq)
-                {
-                    CompositeTransform m = (CompositeTransform)timon.RenderTransform;
 
-                    int angulo = (int)NewptrPt.Position.X - (int)ptrPt.Position.X;
-
-                    m.Rotation = angulo;
-                }
-            }
-        }
-        private void BackBut_KeyDown(object sender, KeyRoutedEventArgs e)
-        {
-            if (e.Key == Windows.System.VirtualKey.Escape)
-            {
-                this.Frame.Navigate(typeof(Pause));
-            }
-        }
-        private void Catalejo_Pressed(object sender, KeyRoutedEventArgs e)
-        {
             if (BotIzq)
-                this.Frame.Navigate(typeof(Catalejo));
+            {
+                CompositeTransform m = (CompositeTransform)timon.RenderTransform;
+
+                int angulo = (int)NewptrPt.Position.X - (int)ptrPt.Position.X;
+
+                m.Rotation = angulo;
+            }
         }
+
         private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
         {
 
         }
+
+        private void Pause_Button(object sender, KeyRoutedEventArgs e)
+        {
+            int n = 0;
+        }
+
+        private void onButtonClick(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(Pause));
+        }
+
+        private void ImagenC_PointerReleasedTimon(object sender, PointerRoutedEventArgs e)
+        {
+            BotIzq = false;
+            BotDer = BotIzq;
+        }
+
+        private void Catalejo_Page(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(Catalejo));
+        }
+
         private void TextBox_TextChanged_1(object sender, TextChangedEventArgs e)
         {
 

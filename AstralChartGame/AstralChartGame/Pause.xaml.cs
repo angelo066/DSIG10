@@ -39,20 +39,20 @@ namespace AstralChartGame
 
             switch (code)
             {
-                case "Exit":
-                    {
-
+                case "Exit": {
                         CoreApplication.Exit();
                     }
                     break;
-                case "Options":
-                    {
+                case "Options": {
                         Frame.Navigate(typeof(OptionsState));
                     }
                     break;
-                case "Resume":
-                    {
+                case "Resume": {
                         Frame.Navigate(typeof(GameState));
+                    }
+                    break;    
+                case "Menu": {
+                        Frame.Navigate(typeof(Menu));
                     }
                     break;
                 default:

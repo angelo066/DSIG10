@@ -16,6 +16,7 @@
             <TextBlock Text="Pause" FontSize="75" VerticalAlignment="Top" HorizontalAlignment="Center" FontFamily="Audiowide"/>
                 <Button Content="Resume" FontSize="50" Margin="0,175,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" FontFamily="Audiowide"  Tag="Resume" Click="onButtonClick" PointerEntered="onButtonOver" PointerExited="onButtonExited"/>
                 <Button Content="Options" FontSize="50" FontFamily="Audiowide" Margin="0,100,0,0" Tag="Options" Click="onButtonClick" PointerEntered="onButtonOver" PointerExited="onButtonExited"/>
+                <Button Content="Menu" FontSize="50" Margin="0,100,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" FontFamily="Audiowide"  Tag="Menu" Click="onButtonClick" PointerEntered="onButtonOver" PointerExited="onButtonExited"/>
                 <Button Content="Exit" FontSize="50" Margin="0,100,0,0" HorizontalAlignment="Center" FontFamily="Audiowide" Tag="Exit" Click="onButtonClick" PointerEntered="onButtonOver" PointerExited="onButtonExited"/>
         </StackPanel>
         </Viewbox>
