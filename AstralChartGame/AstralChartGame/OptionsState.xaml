@@ -22,52 +22,52 @@
         <Image HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.RowSpan="3" Grid.ColumnSpan="3" Source="/Assets/Stars.jpg" Stretch="UniformToFill"/>
         <Viewbox Grid.Column="1">
             <StackPanel Orientation="Horizontal">
-                <Button Content="BACK" Margin="20,0,0,0" VerticalAlignment="Center" FontFamily="Audiowide" FontSize="20" HorizontalAlignment="Left" BorderBrush="#FF080000" Padding="10,10,10,10" Click="BackButton_Click"/>
+                <Button Content="BACK" Margin="20,0,0,0" VerticalAlignment="Center" FontFamily="Audiowide" FontSize="20" HorizontalAlignment="Left" BorderBrush="#FF080000" Padding="10,10,10,10" Click="BackButton_Click" PointerEntered="soundOverButton"/>
                 <TextBlock Text="OPTIONS" TextWrapping="Wrap" FontFamily="Audiowide" FontSize="72" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="150,0,0,0"/>
-                <Button Content="CONTROLS" Margin="100,0,20,0" VerticalAlignment="Center" FontFamily="Audiowide" FontSize="20" HorizontalAlignment="Right" BorderBrush="#FF080000" Padding="10,10,10,10"/>
+                <Button Content="CONTROLS" Margin="100,0,20,0" VerticalAlignment="Center" FontFamily="Audiowide" FontSize="20" HorizontalAlignment="Right" BorderBrush="#FF080000" Padding="10,10,10,10" PointerEntered="soundOverButton" Click="soundClickButton"/>
             </StackPanel>
         </Viewbox>
         <ScrollViewer Grid.Column="1" Grid.ColumnSpan="1" VerticalScrollBarVisibility="Auto" Grid.RowSpan="1" Grid.Row="1" BorderBrush="Transparent">
             <Viewbox>
                 <StackPanel Margin="100,50,100,50">
                     <TextBlock Text="DISPLAY" TextWrapping="Wrap" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="48" FontFamily="Audiowide" FlowDirection="LeftToRight" Margin="0,0,0,0"/>
-                    <CheckBox x:Name="FullScreen_CheckBox" Content="Fullscreen" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FlowDirection="RightToLeft" Padding="50,0,0,0" FontSize="18" FontFamily="Audiowide" HorizontalAlignment="Left" Margin="140,25,0,0" RenderTransformOrigin="0.5,0.5" Click="ToggleFullScreen_Click" >
+                    <CheckBox x:Name="FullScreen_CheckBox" Content="Fullscreen" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FlowDirection="RightToLeft" Padding="50,0,0,0" FontSize="18" FontFamily="Audiowide" HorizontalAlignment="Left" Margin="140,25,0,0" RenderTransformOrigin="0.5,0.5" Click="ToggleFullScreen_Click" PointerEntered="soundOverButton" >
                         <CheckBox.RenderTransform>
                             <CompositeTransform ScaleX="2" ScaleY="2"/>
                         </CheckBox.RenderTransform>
                     </CheckBox>
                     <TextBlock Text="AUDIO" TextWrapping="Wrap" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="48" FontFamily="Audiowide" FlowDirection="LeftToRight" Margin="0,75,0,0"/>
                     <TextBlock Text="Main Volume" TextWrapping="Wrap" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="36" FontFamily="Audiowide" FlowDirection="LeftToRight" Margin="50,25,0,0"/>
-                    <Slider Width="400" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="100,25,50,0" FontSize="36" Value="100" BorderThickness="0,0,0,0" Foreground="White"/>
+                    <Slider Width="400" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="100,25,50,0" FontSize="36" Value="100" BorderThickness="0,0,0,0" Foreground="White" ValueChanged="changeMainVolume" PointerEntered="soundOverButton"/>
                     <TextBlock Text="Music" TextWrapping="Wrap" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="36" FontFamily="Audiowide" FlowDirection="LeftToRight" Margin="50,25,0,0"/>
-                    <Slider Width="400" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="100,25,50,0" FontSize="36" Value="100" BorderThickness="0,0,0,0" Foreground="White"/>
+                    <Slider Width="400" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="100,25,50,0" FontSize="36" Value="100" BorderThickness="0,0,0,0" Foreground="White" ValueChanged="changeMusicVolume" PointerEntered="soundOverButton"/>
                     <TextBlock Text="Effects" TextWrapping="Wrap" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="36" FontFamily="Audiowide" FlowDirection="LeftToRight" Margin="50,25,0,0"/>
-                    <Slider Width="400" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="100,25,50,0" FontSize="36" Value="100" BorderThickness="0,0,0,0" Background="#66FFFFFF" Foreground="White"/>
+                    <Slider Width="400" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="100,25,50,0" FontSize="36" Value="100" BorderThickness="0,0,0,0" Background="#66FFFFFF" Foreground="White" ValueChanged="changeSfxVolume" PointerEntered="soundOverButton"/>
                     <TextBlock Text="TEXT" TextWrapping="Wrap" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="48" FontFamily="Audiowide" FlowDirection="LeftToRight" Margin="0,75,0,0"/>
                     <TextBlock Text="Language" TextWrapping="Wrap" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="36" FontFamily="Audiowide" FlowDirection="LeftToRight" Margin="50,25,0,0"/>
-                    <ComboBox HorizontalContentAlignment="Center" Padding="20,5,20,5" Margin="50,25,0,0" SelectedIndex="0" FontFamily="Audiowide" FontSize="24" DropDownClosed="SetAppLanguage">
-                        <ComboBoxItem Content="English" FontFamily="Audiowide" FontSize="24" HorizontalAlignment="Left" VerticalAlignment="Center"/>
-                        <ComboBoxItem Content="Chinese" FontFamily="Audiowide" FontSize="24" HorizontalAlignment="Left" VerticalAlignment="Center"/>
-                        <ComboBoxItem Content="Spanish" FontFamily="Audiowide" FontSize="24" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                    <ComboBox HorizontalContentAlignment="Center" Padding="20,5,20,5" Margin="50,25,0,0" SelectedIndex="0" FontFamily="Audiowide" FontSize="24" DropDownClosed="SetAppLanguage" PointerEntered="soundOverButton" DropDownOpened="soundClickButton">
+                        <ComboBoxItem Content="English" FontFamily="Audiowide" FontSize="24" HorizontalAlignment="Left" VerticalAlignment="Center" PointerEntered="soundOverButton" Tapped="soundClickButton"/>
+                        <ComboBoxItem Content="Chinese" FontFamily="Audiowide" FontSize="24" HorizontalAlignment="Left" VerticalAlignment="Center" PointerEntered="soundOverButton" Tapped="soundClickButton"/>
+                        <ComboBoxItem Content="Spanish" FontFamily="Audiowide" FontSize="24" HorizontalAlignment="Left" VerticalAlignment="Center" PointerEntered="soundOverButton" Tapped="soundClickButton"/>
                     </ComboBox>
-                    <CheckBox Content="Subtitles" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FlowDirection="RightToLeft" Padding="0,0,0,0" FontSize="18" FontFamily="Audiowide" HorizontalAlignment="Left" Margin="100,50,0,25" RenderTransformOrigin="0.5,0.5" VerticalAlignment="Top" >
+                    <CheckBox Content="Subtitles" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FlowDirection="RightToLeft" Padding="0,0,0,0" FontSize="18" FontFamily="Audiowide" HorizontalAlignment="Left" Margin="100,50,0,25" RenderTransformOrigin="0.5,0.5" VerticalAlignment="Top" PointerEntered="soundOverButton" Click="soundClickButton" >
                         <CheckBox.RenderTransform>
                             <CompositeTransform ScaleX="2" ScaleY="2"/>
                         </CheckBox.RenderTransform>
                     </CheckBox>
                     <TextBlock Text="Font Size" TextWrapping="Wrap" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="36" FontFamily="Audiowide" FlowDirection="LeftToRight" Margin="50,25,0,0"/>
-                    <ComboBox HorizontalContentAlignment="Center" Padding="20,5,20,5" Margin="50,25,0,0" SelectedIndex="1" FontFamily="Audiowide" FontSize="24">
-                        <ComboBoxItem Content="Small" FontFamily="Audiowide" FontSize="24" HorizontalAlignment="Left" VerticalAlignment="Center"/>
-                        <ComboBoxItem Content="Medium" FontFamily="Audiowide" FontSize="24" HorizontalAlignment="Left" VerticalAlignment="Center"/>
-                        <ComboBoxItem Content="Large" FontFamily="Audiowide" FontSize="24" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                    <ComboBox HorizontalContentAlignment="Center" Padding="20,5,20,5" Margin="50,25,0,0" SelectedIndex="1" FontFamily="Audiowide" FontSize="24" PointerEntered="soundOverButton" DropDownOpened="soundClickButton">
+                        <ComboBoxItem Content="Small" FontFamily="Audiowide" FontSize="24" HorizontalAlignment="Left" VerticalAlignment="Center" PointerEntered="soundOverButton" Tapped="soundClickButton"/>
+                        <ComboBoxItem Content="Medium" FontFamily="Audiowide" FontSize="24" HorizontalAlignment="Left" VerticalAlignment="Center" PointerEntered="soundOverButton" Tapped="soundClickButton"/>
+                        <ComboBoxItem Content="Large" FontFamily="Audiowide" FontSize="24" HorizontalAlignment="Left" VerticalAlignment="Center" PointerEntered="soundOverButton" Tapped="soundClickButton"/>
                     </ComboBox>
                     <TextBlock Text="ACCESIBILITY" TextWrapping="Wrap" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="48" FontFamily="Audiowide" FlowDirection="LeftToRight" Margin="0,75,0,0"/>
                     <TextBlock Text="Color Blindness" TextWrapping="Wrap" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="36" FontFamily="Audiowide" FlowDirection="LeftToRight" Margin="50,25,0,0"/>
-                    <ComboBox HorizontalContentAlignment="Center" Padding="20,5,20,5" Margin="50,25,0,100" SelectedIndex="0" FontFamily="Audiowide" FontSize="24">
-                        <ComboBoxItem Content="None" FontFamily="Audiowide" FontSize="24" HorizontalAlignment="Left" VerticalAlignment="Center"/>
-                        <ComboBoxItem Content="Protanopia" FontFamily="Audiowide" FontSize="24" HorizontalAlignment="Left" VerticalAlignment="Center"/>
-                        <ComboBoxItem Content="Deuteranopia" FontFamily="Audiowide" FontSize="24" HorizontalAlignment="Left" VerticalAlignment="Center"/>
-                        <ComboBoxItem Content="Tritanopia" FontFamily="Audiowide" FontSize="24" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                    <ComboBox HorizontalContentAlignment="Center" Padding="20,5,20,5" Margin="50,25,0,100" SelectedIndex="0" FontFamily="Audiowide" FontSize="24" PointerEntered="soundOverButton" DropDownOpened="soundClickButton">
+                        <ComboBoxItem Content="None" FontFamily="Audiowide" FontSize="24" HorizontalAlignment="Left" VerticalAlignment="Center" PointerEntered="soundOverButton" Tapped="soundClickButton"/>
+                        <ComboBoxItem Content="Protanopia" FontFamily="Audiowide" FontSize="24" HorizontalAlignment="Left" VerticalAlignment="Center" PointerEntered="soundOverButton" Tapped="soundClickButton"/>
+                        <ComboBoxItem Content="Deuteranopia" FontFamily="Audiowide" FontSize="24" HorizontalAlignment="Left" VerticalAlignment="Center" PointerEntered="soundOverButton" Tapped="soundClickButton"/>
+                        <ComboBoxItem Content="Tritanopia" FontFamily="Audiowide" FontSize="24" HorizontalAlignment="Left" VerticalAlignment="Center" PointerEntered="soundOverButton" Tapped="soundClickButton"/>
                     </ComboBox>
                 </StackPanel>
             </Viewbox>

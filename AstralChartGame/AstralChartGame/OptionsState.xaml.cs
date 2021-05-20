@@ -6,6 +6,8 @@ using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.Globalization;
+using Windows.Media.Playback;
+using Windows.Media.Core;
 using Windows.UI.ViewManagement;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
@@ -24,9 +26,18 @@ namespace AstralChartGame
     /// </summary>
     public sealed partial class OptionsState : Page
     {
+        MediaPlayer musicPlayer, sfxPlayer;
+        double mainVolume;
+        double musicVolume;
+        double sfxVolume;
         public OptionsState()
         {
             this.InitializeComponent();
+            //Audio
+            musicPlayer = new MediaPlayer();
+            sfxPlayer = new MediaPlayer();
+            Init_BGMusic();
+
             this.NavigationCacheMode =
             Windows.UI.Xaml.Navigation.NavigationCacheMode.Enabled;
             //Check Options states
@@ -36,7 +47,69 @@ namespace AstralChartGame
             else
                 FullScreen_CheckBox.IsChecked = false;
         }
+        #region Audio
+        private async void Init_BGMusic()
+        {
+            Windows.Storage.StorageFolder folder = await Windows.ApplicationModel.Package.Current.InstalledLocation.GetFolderAsync(@"Assets\audios");
+            Windows.Storage.StorageFile file = await folder.GetFileAsync("BgMusic_NoCopy.mp3");
 
+            musicPlayer.AutoPlay = true;
+            musicPlayer.Source = MediaSource.CreateFromStorageFile(file);
+            musicPlayer.IsLoopingEnabled = true;
+        }
+        private void changeMainVolume(object sender, RangeBaseValueChangedEventArgs e)
+        {
+            mainVolume = (sender as Slider).Value / 100;
+            if (musicPlayer != null && sfxPlayer != null)
+            {
+                musicPlayer.Volume = mainVolume * musicVolume;
+                sfxPlayer.Volume = mainVolume * sfxVolume;
+            }
+        }
+        private void changeMusicVolume(object sender, RangeBaseValueChangedEventArgs e)
+        {
+            musicVolume = (sender as Slider).Value / 100;
+            if (musicPlayer != null)
+                musicPlayer.Volume = mainVolume * musicVolume;
+        }
+        private void changeSfxVolume(object sender, RangeBaseValueChangedEventArgs e)
+        {
+            sfxVolume = (sender as Slider).Value / 100;
+            if (sfxPlayer != null)
+                sfxPlayer.Volume = mainVolume * sfxVolume;
+        }
+        private async void soundOverButton(object sender, PointerRoutedEventArgs e)
+        {
+            Windows.Storage.StorageFolder folder = await Windows.ApplicationModel.Package.Current.InstalledLocation.GetFolderAsync(@"Assets\audios");
+            Windows.Storage.StorageFile file = await folder.GetFileAsync("overButton.wav");
+
+            sfxPlayer.AutoPlay = false;
+            sfxPlayer.Source = MediaSource.CreateFromStorageFile(file);
+
+            sfxPlayer.Play();
+        }
+
+        private async void soundClickButton(object sender, RoutedEventArgs e)
+        {
+            Windows.Storage.StorageFolder folder = await Windows.ApplicationModel.Package.Current.InstalledLocation.GetFolderAsync(@"Assets\audios");
+            Windows.Storage.StorageFile file = await folder.GetFileAsync("clickButton.wav");
+
+            sfxPlayer.AutoPlay = false;
+            sfxPlayer.Source = MediaSource.CreateFromStorageFile(file);
+
+            sfxPlayer.Play();
+        }
+        private async void soundClickButton(object sender, object e)
+        {
+            Windows.Storage.StorageFolder folder = await Windows.ApplicationModel.Package.Current.InstalledLocation.GetFolderAsync(@"Assets\audios");
+            Windows.Storage.StorageFile file = await folder.GetFileAsync("clickButton.wav");
+
+            sfxPlayer.AutoPlay = false;
+            sfxPlayer.Source = MediaSource.CreateFromStorageFile(file);
+
+            sfxPlayer.Play();
+        }
+        #endregion
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
             base.OnNavigatedTo(e);
@@ -46,6 +119,7 @@ namespace AstralChartGame
         private void BackButton_Click(object sender, RoutedEventArgs e)
         {
             On_BackRequested();
+            soundClickButton(sender, e);
         }
 
         private bool On_BackRequested()
@@ -77,7 +151,9 @@ namespace AstralChartGame
                     // The SizeChanged event will be raised when the entry to full-screen mode is complete.
                 }
             }
+            soundClickButton(sender, e);
         }
+
         #endregion
 
         #region Language
@@ -99,5 +175,6 @@ namespace AstralChartGame
             this.Frame.Navigate(this.GetType());
         }
         #endregion
+
     }
 }

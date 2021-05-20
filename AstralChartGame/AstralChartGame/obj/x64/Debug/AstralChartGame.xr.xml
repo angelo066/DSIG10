@@ -235,6 +235,7 @@
       <RootProperty Name="RenderTransform" />
       <RootProperty Name="VerticalAlignment" />
       <RootEvent Name="Click" />
+      <RootEvent Name="PointerEntered" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Slider">
       <RootProperty Name="Width" />
@@ -246,6 +247,8 @@
       <RootProperty Name="BorderThickness" />
       <RootProperty Name="Foreground" />
       <RootProperty Name="Background" />
+      <RootEvent Name="ValueChanged" />
+      <RootEvent Name="PointerEntered" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ComboBox">
       <RootProperty Name="HorizontalContentAlignment" />
@@ -256,6 +259,8 @@
       <RootProperty Name="FontSize" />
       <RootProperty Name="Items" />
       <RootEvent Name="DropDownClosed" />
+      <RootEvent Name="PointerEntered" />
+      <RootEvent Name="DropDownOpened" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ComboBoxItem">
       <RootProperty Name="Content" />
@@ -263,6 +268,8 @@
       <RootProperty Name="FontSize" />
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="VerticalAlignment" />
+      <RootEvent Name="PointerEntered" />
+      <RootEvent Name="Tapped" />
     </RootType>
     <RootType FullName="AstralChartGame.OptionsState" />
     <RootType FullName="AstralChartGame.Pause" />

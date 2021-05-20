@@ -1,26 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jd\\Desktop\\Uni\\Segundo\\2do4\\DSI\\ProyectoDSI\\DSIG10\\DSIG10-\\AstralChartGame\\AstralChartGame\\AstralChartGame.csproj": {}
+    "G:\\Uni\\DSI\\Proyecto\\DSIG10\\AstralChartGame\\AstralChartGame\\AstralChartGame.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jd\\Desktop\\Uni\\Segundo\\2do4\\DSI\\ProyectoDSI\\DSIG10\\DSIG10-\\AstralChartGame\\AstralChartGame\\AstralChartGame.csproj": {
+    "G:\\Uni\\DSI\\Proyecto\\DSIG10\\AstralChartGame\\AstralChartGame\\AstralChartGame.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jd\\Desktop\\Uni\\Segundo\\2do4\\DSI\\ProyectoDSI\\DSIG10\\DSIG10-\\AstralChartGame\\AstralChartGame\\AstralChartGame.csproj",
+        "projectUniqueName": "G:\\Uni\\DSI\\Proyecto\\DSIG10\\AstralChartGame\\AstralChartGame\\AstralChartGame.csproj",
         "projectName": "AstralChartGame",
-        "projectPath": "C:\\Users\\jd\\Desktop\\Uni\\Segundo\\2do4\\DSI\\ProyectoDSI\\DSIG10\\DSIG10-\\AstralChartGame\\AstralChartGame\\AstralChartGame.csproj",
-        "packagesPath": "C:\\Users\\jd\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jd\\Desktop\\Uni\\Segundo\\2do4\\DSI\\ProyectoDSI\\DSIG10\\DSIG10-\\AstralChartGame\\AstralChartGame\\obj\\",
+        "projectPath": "G:\\Uni\\DSI\\Proyecto\\DSIG10\\AstralChartGame\\AstralChartGame\\AstralChartGame.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "G:\\Uni\\DSI\\Proyecto\\DSIG10\\AstralChartGame\\AstralChartGame\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\jd\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
