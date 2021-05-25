@@ -38,48 +38,48 @@
         <Image HorizontalAlignment="Stretch" Margin="0,0,0,0" VerticalAlignment="Stretch" Grid.RowSpan="4" Grid.ColumnSpan="3" Source="/Assets/Stars.jpg" Stretch="UniformToFill"/>
 
         <Viewbox RequestedTheme="Dark" VerticalAlignment="Top" >
-            <Button Margin="0,30,60,30" BorderThickness="10" Style="{ThemeResource ButtonRevealStyle}" Background="Transparent" HorizontalAlignment="Left" x:Name="backButton" Content="Back" Click="Back_Click" FontSize="35"  FontFamily="Audiowide" RequestedTheme="Dark"/>
+            <Button x:Uid="LevelsBack" Margin="0,30,60,30" BorderThickness="10" Style="{ThemeResource ButtonRevealStyle}" Background="Transparent" HorizontalAlignment="Left" x:Name="backButton" Content="Volver" Click="Back_Click" FontSize="35"  FontFamily="Audiowide" RequestedTheme="Dark"/>
         </Viewbox>
 
         <Viewbox RequestedTheme="Dark" Grid.Column="1" Grid.Row ="0" VerticalAlignment="Center" HorizontalAlignment="Center"  >
-            <TextBlock Margin="20" Text="Levels"  FontSize="55" FontFamily="Audiowide" RequestedTheme="Dark" ></TextBlock>
+            <TextBlock x:Uid="Levels" Margin="20" Text="Niveles"  FontSize="55" FontFamily="Audiowide" RequestedTheme="Dark" ></TextBlock>
         </Viewbox>
 
         <Viewbox  Grid.Column="0" Grid.Row="1"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
-            <Button Content="Cruz del Sur" FontSize= "35" FontFamily="Audiowide"  Margin="50" Click="onLevelSelecte_click" Tag = "1" Background="Transparent"></Button>
+            <Button x:Uid="Level1" Content="Cruz del Sur" FontSize= "35" FontFamily="Audiowide"  Margin="50" Click="onLevelSelecte_click" Tag = "1" Background="Transparent"></Button>
         </Viewbox>
 
         <Viewbox Grid.Column="1" Grid.Row="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
             <RelativePanel>
-                <Button Content="Osa Mayor" FontFamily="Audiowide" FontSize= "35"  Margin="50" Click="onLevelSelecte_click" Tag = "2" Background="Transparent" ></Button>
+                <Button x:Uid="Level2" Content="Osa Mayor" FontFamily="Audiowide" FontSize= "35"  Margin="50" Click="onLevelSelecte_click" Tag = "2" Background="Transparent" ></Button>
                 <Border Width="317" Height="197" CornerRadius="20 20 20 20" Background="{StaticResource Custom}"/>
             </RelativePanel>
         </Viewbox>
 
         <Viewbox Grid.Column="2" Grid.Row="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
             <RelativePanel>
-                <Button x:Name="stage3" Content="Cygnus" FontFamily="Audiowide" FontSize= "35"  Margin="50" Click="onLevelSelecte_click" Tag = "3" Background="Transparent"></Button>
+                <Button x:Uid="Level3" x:Name="Lumos" Content="Cygnus" FontFamily="Audiowide" FontSize= "35"  Margin="50" Click="onLevelSelecte_click" Tag = "3" Background="Transparent"></Button>
                 <Border Width="266" Height="158" CornerRadius="20 20 20 20" Background="{StaticResource Custom}"/>
             </RelativePanel>
         </Viewbox >
 
         <Viewbox Grid.Column="0" Grid.Row="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
             <RelativePanel>
-                <Button Content="Tauro" FontFamily="Audiowide" FontSize= "35"  Margin="50" Click="onLevelSelecte_click" Tag = "4" Background="Transparent"></Button>
+                <Button x:Uid="Level4" Content="Tauro" FontFamily="Audiowide" FontSize= "35"  Margin="50" Click="onLevelSelecte_click" Tag = "4" Background="Transparent"></Button>
                 <Border Width="266" Height="158" CornerRadius="20 20 20 20" Background="{StaticResource Custom}"/>
             </RelativePanel>
         </Viewbox>
 
         <Viewbox Grid.Column="1" Grid.Row="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
             <RelativePanel>
-                <Button Content="Draco" FontFamily="Audiowide" FontSize= "35"  Margin="50" Click="onLevelSelecte_click" Tag = "5" Background="Transparent"></Button>
+                <Button x:Uid="Level5" Content="Draco" FontFamily="Audiowide" FontSize= "35"  Margin="50" Click="onLevelSelecte_click" Tag = "5" Background="Transparent"></Button>
                 <Border Width="266" Height="158" CornerRadius="20 20 20 20" Background="{StaticResource Custom}"/>
             </RelativePanel>
         </Viewbox>
 
         <Viewbox Grid.Column="2" Grid.Row="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" >
             <RelativePanel>
-                <Button Content="Orión" FontFamily="Audiowide" FontSize= "35" Margin="50" Click="onLevelSelecte_click" Tag = "6" Background="Transparent"></Button>
+                <Button x:Uid="Level6" Content="Orion" FontFamily="Audiowide" FontSize= "35" Margin="50" Click="onLevelSelecte_click" Tag = "6" Background="Transparent"></Button>
                 <Border Width="266" Height="158" CornerRadius="20 20 20 20" Background="{StaticResource Custom}"/>
             </RelativePanel>
         </Viewbox>
@@ -88,15 +88,15 @@
             <StackPanel Grid.Row="3" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="50,20,0,20">
                 <StackPanel Orientation="Horizontal">
                     <Rectangle Fill="Yellow" Margin="10,10,10,10" Width="30" Height="30"/>
-                    <TextBlock Grid.Column="1" Grid.Row ="0" Text="Completed" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="55" FontFamily="Audiowide" />
+                    <TextBlock x:Uid="LevelComplete" Grid.Column="1" Grid.Row ="0" Text="Completado" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="55" FontFamily="Audiowide" />
                 </StackPanel>
                 <StackPanel Orientation="Horizontal">
                     <Rectangle Fill="Blue" Grid.Row="1" Margin="10,10,10,10" Width="30" Height="30" />
-                    <TextBlock Grid.Column="1" Grid.Row ="1" Text="Unlocked" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="55" FontFamily="Audiowide"></TextBlock>
+                    <TextBlock x:Uid="LevelUnlocked" Grid.Column="1" Grid.Row ="1" Text="Desbloqueado" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="55" FontFamily="Audiowide"></TextBlock>
                 </StackPanel>
                 <StackPanel Orientation="Horizontal">
                     <Rectangle Fill="White" Grid.Row="2" Margin="10,10,10,10" Width="30" Height="30" />
-                    <TextBlock Grid.Column="1" Grid.Row ="2" Text="Locked" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="55" FontFamily="Audiowide"></TextBlock>
+                    <TextBlock x:Uid="LevelLocked" Grid.Column="1" Grid.Row ="2" Text="Bloqueado" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="55" FontFamily="Audiowide"></TextBlock>
                 </StackPanel>
             </StackPanel>
         </Viewbox>

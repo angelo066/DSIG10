@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="es-ES" target-language="zh-Hans" original="ASTRALCHARTGAME/STRINGS/ES-ES/RESOURCES1.RESW" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.6916.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="ASTRALCHARTGAME/STRINGS/ES-ES/RESOURCES1.RESW" datatype="resx">
+        <trans-unit id="GamePause.Text" translate="yes" xml:space="preserve">
+          <source>Pausa</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">正在暂停</target>
+        </trans-unit>
+        <trans-unit id="Level1" translate="yes" xml:space="preserve">
+          <source>Cruz del Sur</source>
+          <target state="translated">南十字</target>
+        </trans-unit>
+        <trans-unit id="Level2" translate="yes" xml:space="preserve">
+          <source>Osa Mayor</source>
+          <target state="translated">大熊</target>
+        </trans-unit>
+        <trans-unit id="Level3" translate="yes" xml:space="preserve">
+          <source>Lumos</source>
+          <target state="translated">发光</target>
+        </trans-unit>
+        <trans-unit id="Level4" translate="yes" xml:space="preserve">
+          <source>Tauro</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">金牛座</target>
+        </trans-unit>
+        <trans-unit id="Level5" translate="yes" xml:space="preserve">
+          <source>Draco</source>
+          <target state="translated">德拉科</target>
+        </trans-unit>
+        <trans-unit id="Level6" translate="yes" xml:space="preserve">
+          <source>Orion</source>
+          <target state="translated">猎户座</target>
+        </trans-unit>
+        <trans-unit id="LevelComplete" translate="yes" xml:space="preserve">
+          <source>Completado</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">大功告成!</target>
+        </trans-unit>
+        <trans-unit id="LevelLocked" translate="yes" xml:space="preserve">
+          <source>Bloqueado</source>
+          <target state="needs-review-translation" state-qualifier="exact-match">已阻止</target>
+        </trans-unit>
+        <trans-unit id="Levels" translate="yes" xml:space="preserve">
+          <source>Niveles</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">级别</target>
+        </trans-unit>
+        <trans-unit id="LevelsBack" translate="yes" xml:space="preserve">
+          <source>Volver</source>
+          <target state="needs-review-translation" state-qualifier="exact-match">返回</target>
+        </trans-unit>
+        <trans-unit id="LevelUnlocked" translate="yes" xml:space="preserve">
+          <source>Desbloqueado</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">已解锁</target>
+        </trans-unit>
+        <trans-unit id="MenuExit.Text" translate="yes" xml:space="preserve">
+          <source>Salir</source>
+          <target state="needs-review-translation" state-qualifier="exact-match">退出</target>
+        </trans-unit>
+        <trans-unit id="MenuOptions.Text" translate="yes" xml:space="preserve">
+          <source>Opciones</source>
+          <target state="needs-review-translation" state-qualifier="exact-match">选项</target>
+        </trans-unit>
+        <trans-unit id="MenuPlay.Content" translate="yes" xml:space="preserve">
+          <source>JUGAR</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">开始</target>
+        </trans-unit>
+        <trans-unit id="Options.Text" translate="yes" xml:space="preserve">
+          <source>OPCIONES</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">选项</target>
+        </trans-unit>
+        <trans-unit id="OptionsAccesibility.Text" translate="yes" xml:space="preserve">
+          <source>ACCESIBILIDAD</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">辅助功能</target>
+        </trans-unit>
+        <trans-unit id="OptionsAudio.Text" translate="yes" xml:space="preserve">
+          <source>AUDIO</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">音频</target>
+        </trans-unit>
+        <trans-unit id="OptionsBack.Content" translate="yes" xml:space="preserve">
+          <source>VOLVER</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">后退</target>
+        </trans-unit>
+        <trans-unit id="OptionsColor.Text" translate="yes" xml:space="preserve">
+          <source>Daltonismo</source>
+          <target state="translated">色盲</target>
+        </trans-unit>
+        <trans-unit id="OptionsColor0.Content" translate="yes" xml:space="preserve">
+          <source>Protanopia</source>
+          <target state="translated">千变万化</target>
+        </trans-unit>
+        <trans-unit id="OptionsColor1.Content" translate="yes" xml:space="preserve">
+          <source>Deuteranopia</source>
+          <target state="translated">十足的</target>
+        </trans-unit>
+        <trans-unit id="OptionsColor2.Content" translate="yes" xml:space="preserve">
+          <source>Tritanopia</source>
+          <target state="translated">特里塔诺皮</target>
+        </trans-unit>
+        <trans-unit id="OptionsColorNo.Content" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">不</target>
+        </trans-unit>
+        <trans-unit id="OptionsControls.Content" translate="yes" xml:space="preserve">
+          <source>CONTROLES</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">控件</target>
+        </trans-unit>
+        <trans-unit id="OptionsDisplay.Text" translate="yes" xml:space="preserve">
+          <source>PANTALLA</source>
+          <target state="translated">屏幕</target>
+        </trans-unit>
+        <trans-unit id="OptionsEffects.Text" translate="yes" xml:space="preserve">
+          <source>Efectos</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">帐单</target>
+        </trans-unit>
+        <trans-unit id="OptionsFont.Content" translate="yes" xml:space="preserve">
+          <source>Tamaño de subtitulos</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">阅读视图字号</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+        </trans-unit>
+        <trans-unit id="OptionsFullScreen.Content" translate="yes" xml:space="preserve">
+          <source>Pantalla Completa</source>
+          <target state="translated">全屏</target>
+        </trans-unit>
+        <trans-unit id="OptionsLanguage.Text" translate="yes" xml:space="preserve">
+          <source>Idioma</source>
+          <target state="needs-review-translation" state-qualifier="exact-match">语言</target>
+        </trans-unit>
+        <trans-unit id="OptionsMainVolume.Text" translate="yes" xml:space="preserve">
+          <source>Volumen</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">卷</target>
+        </trans-unit>
+        <trans-unit id="OptionsMusic.Text" translate="yes" xml:space="preserve">
+          <source>Musica</source>
+          <target state="translated">音乐</target>
+        </trans-unit>
+        <trans-unit id="OptionsNarrator.Content" translate="yes" xml:space="preserve">
+          <source>Narrador</source>
+          <target state="needs-review-translation" state-qualifier="exact-match">讲述人</target>
+        </trans-unit>
+        <trans-unit id="OptionsSubs.Content" translate="yes" xml:space="preserve">
+          <source>Subtitulos</source>
+          <target state="translated">字幕</target>
+        </trans-unit>
+        <trans-unit id="OptionsText.Text" translate="yes" xml:space="preserve">
+          <source>TEXTO</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">文本</target>
+        </trans-unit>
+        <trans-unit id="Pause.Text" translate="yes" xml:space="preserve">
+          <source>Pausa</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">正在暂停</target>
+        </trans-unit>
+        <trans-unit id="PauseExit.Content" translate="yes" xml:space="preserve">
+          <source>Salir</source>
+          <target state="needs-review-translation" state-qualifier="exact-match">退出</target>
+        </trans-unit>
+        <trans-unit id="PauseMenu.Content" translate="yes" xml:space="preserve">
+          <source>Menu</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">菜单</target>
+        </trans-unit>
+        <trans-unit id="PauseOptions.Content" translate="yes" xml:space="preserve">
+          <source>Opciones</source>
+          <target state="needs-review-translation" state-qualifier="exact-match">选项</target>
+        </trans-unit>
+        <trans-unit id="PauseResume.Content" translate="yes" xml:space="preserve">
+          <source>Continuar</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">继续</target>
+        </trans-unit>
+        <trans-unit id="SpyGlass.Text" translate="yes" xml:space="preserve">
+          <source>HAZ CLICK PARA SALIR</source>
+          <target state="translated">点击退出</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

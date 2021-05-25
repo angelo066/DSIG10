@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="GamePause.Text" xml:space="preserve">
+    <value>正在暂停</value>
+  </data>
+  <data name="Level1" xml:space="preserve">
+    <value>南十字</value>
+  </data>
+  <data name="Level2" xml:space="preserve">
+    <value>大熊</value>
+  </data>
+  <data name="Level3" xml:space="preserve">
+    <value>发光</value>
+  </data>
+  <data name="Level4" xml:space="preserve">
+    <value>金牛座</value>
+  </data>
+  <data name="Level5" xml:space="preserve">
+    <value>德拉科</value>
+  </data>
+  <data name="Level6" xml:space="preserve">
+    <value>猎户座</value>
+  </data>
+  <data name="LevelComplete" xml:space="preserve">
+    <value>大功告成!</value>
+  </data>
+  <data name="LevelLocked" xml:space="preserve">
+    <value>已阻止</value>
+  </data>
+  <data name="Levels" xml:space="preserve">
+    <value>级别</value>
+  </data>
+  <data name="LevelsBack" xml:space="preserve">
+    <value>返回</value>
+  </data>
+  <data name="LevelUnlocked" xml:space="preserve">
+    <value>已解锁</value>
+  </data>
+  <data name="MenuExit.Text" xml:space="preserve">
+    <value>退出</value>
+  </data>
+  <data name="MenuOptions.Text" xml:space="preserve">
+    <value>选项</value>
+  </data>
+  <data name="MenuPlay.Content" xml:space="preserve">
+    <value>开始</value>
+  </data>
+  <data name="Options.Text" xml:space="preserve">
+    <value>选项</value>
+  </data>
+  <data name="OptionsAccesibility.Text" xml:space="preserve">
+    <value>辅助功能</value>
+  </data>
+  <data name="OptionsAudio.Text" xml:space="preserve">
+    <value>音频</value>
+  </data>
+  <data name="OptionsBack.Content" xml:space="preserve">
+    <value>后退</value>
+  </data>
+  <data name="OptionsColor.Text" xml:space="preserve">
+    <value>色盲</value>
+  </data>
+  <data name="OptionsColor0.Content" xml:space="preserve">
+    <value>千变万化</value>
+  </data>
+  <data name="OptionsColor1.Content" xml:space="preserve">
+    <value>十足的</value>
+  </data>
+  <data name="OptionsColor2.Content" xml:space="preserve">
+    <value>特里塔诺皮</value>
+  </data>
+  <data name="OptionsColorNo.Content" xml:space="preserve">
+    <value>不</value>
+  </data>
+  <data name="OptionsControls.Content" xml:space="preserve">
+    <value>控件</value>
+  </data>
+  <data name="OptionsDisplay.Text" xml:space="preserve">
+    <value>屏幕</value>
+  </data>
+  <data name="OptionsEffects.Text" xml:space="preserve">
+    <value>帐单</value>
+  </data>
+  <data name="OptionsFont.Content" xml:space="preserve">
+    <value>阅读视图字号</value>
+  </data>
+  <data name="OptionsFullScreen.Content" xml:space="preserve">
+    <value>全屏</value>
+  </data>
+  <data name="OptionsLanguage.Text" xml:space="preserve">
+    <value>语言</value>
+  </data>
+  <data name="OptionsMainVolume.Text" xml:space="preserve">
+    <value>卷</value>
+  </data>
+  <data name="OptionsMusic.Text" xml:space="preserve">
+    <value>音乐</value>
+  </data>
+  <data name="OptionsNarrator.Content" xml:space="preserve">
+    <value>讲述人</value>
+  </data>
+  <data name="OptionsSubs.Content" xml:space="preserve">
+    <value>字幕</value>
+  </data>
+  <data name="OptionsText.Text" xml:space="preserve">
+    <value>文本</value>
+  </data>
+  <data name="Pause.Text" xml:space="preserve">
+    <value>正在暂停</value>
+  </data>
+  <data name="PauseExit.Content" xml:space="preserve">
+    <value>退出</value>
+  </data>
+  <data name="PauseMenu.Content" xml:space="preserve">
+    <value>菜单</value>
+  </data>
+  <data name="PauseOptions.Content" xml:space="preserve">
+    <value>选项</value>
+  </data>
+  <data name="PauseResume.Content" xml:space="preserve">
+    <value>继续</value>
+  </data>
+  <data name="SpyGlass.Text" xml:space="preserve">
+    <value>点击退出</value>
+  </data>
+</root>

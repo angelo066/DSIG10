@@ -10,6 +10,6 @@
 
     <Grid>
         <Image PointerPressed="back" Source="/Assets/catalejo.jpg" HorizontalAlignment="Center" VerticalAlignment="Center" Stretch="Fill"/>
-        <TextBlock HorizontalAlignment="Center" Margin="0,748,0,0" Text="HAZ CLICK PARA SALIR" FontFamily="Audiowide" TextWrapping="Wrap" VerticalAlignment="Bottom"/>
+        <TextBlock x:Uid="SpyGlass" HorizontalAlignment="Center" Margin="0,748,0,0" Text="HAZ CLICK PARA SALIR" FontFamily="Audiowide" TextWrapping="Wrap" VerticalAlignment="Bottom"/>
     </Grid>
 </Page>

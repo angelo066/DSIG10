@@ -13,11 +13,11 @@
         <Image Source="/Assets/cuaderno.png" HorizontalAlignment="Center"  VerticalAlignment="Center" Margin="0,20,0,20"/>
         <Viewbox HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,100,0,120">
         <StackPanel VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0,100,0,0" RequestedTheme="Dark">
-            <TextBlock Text="Pause" FontSize="75" VerticalAlignment="Top" HorizontalAlignment="Center" FontFamily="Audiowide"/>
-                <Button Content="Resume" FontSize="50" Margin="0,175,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" FontFamily="Audiowide"  Tag="Resume" Click="onButtonClick" PointerEntered="onButtonOver" PointerExited="onButtonExited"/>
-                <Button Content="Options" FontSize="50" FontFamily="Audiowide" Margin="0,100,0,0" Tag="Options" Click="onButtonClick" PointerEntered="onButtonOver" PointerExited="onButtonExited"/>
-                <Button Content="Menu" FontSize="50" Margin="0,100,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" FontFamily="Audiowide"  Tag="Menu" Click="onButtonClick" PointerEntered="onButtonOver" PointerExited="onButtonExited"/>
-                <Button Content="Exit" FontSize="50" Margin="0,100,0,0" HorizontalAlignment="Center" FontFamily="Audiowide" Tag="Exit" Click="onButtonClick" PointerEntered="onButtonOver" PointerExited="onButtonExited"/>
+                <TextBlock x:Uid="Pause" Text="Pausa" FontSize="75" VerticalAlignment="Top" HorizontalAlignment="Center" FontFamily="Audiowide"/>
+                <Button x:Uid="PauseResume" Content="Continuar" FontSize="50" Margin="0,175,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" FontFamily="Audiowide"  Tag="Resume" Click="onButtonClick" PointerEntered="onButtonOver" PointerExited="onButtonExited"/>
+                <Button x:Uid="PauseOptions" Content="Opciones" FontSize="50" FontFamily="Audiowide" Margin="0,100,0,0" Tag="Options" Click="onButtonClick" PointerEntered="onButtonOver" PointerExited="onButtonExited" HorizontalAlignment="Center"/>
+                <Button x:Uid="PauseMenu" Content="Menu" FontSize="50" Margin="0,100,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" FontFamily="Audiowide"  Tag="Menu" Click="onButtonClick" PointerEntered="onButtonOver" PointerExited="onButtonExited"/>
+                <Button x:Uid="PauseExit" Content="Salir" FontSize="50" Margin="0,100,0,0" HorizontalAlignment="Center" FontFamily="Audiowide" Tag="Exit" Click="onButtonClick" PointerEntered="onButtonOver" PointerExited="onButtonExited"/>
         </StackPanel>
         </Viewbox>
     </Grid>

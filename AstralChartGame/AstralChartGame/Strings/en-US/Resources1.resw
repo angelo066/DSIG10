@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="GamePause.Text" xml:space="preserve">
+    <value>Pause</value>
+  </data>
+  <data name="Level1" xml:space="preserve">
+    <value>Cross of the South</value>
+  </data>
+  <data name="Level2" xml:space="preserve">
+    <value>Big Dipper</value>
+  </data>
+  <data name="Level4" xml:space="preserve">
+    <value>Taurus</value>
+  </data>
+  <data name="LevelComplete" xml:space="preserve">
+    <value>Completed</value>
+  </data>
+  <data name="LevelLocked" xml:space="preserve">
+    <value>Locked</value>
+  </data>
+  <data name="Levels" xml:space="preserve">
+    <value>Levels</value>
+  </data>
+  <data name="LevelsBack" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="LevelUnlocked" xml:space="preserve">
+    <value>Unlocked</value>
+  </data>
+  <data name="MenuExit.Text" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="MenuOptions.Text" xml:space="preserve">
+    <value>Options</value>
+  </data>
+  <data name="MenuPlay.Content" xml:space="preserve">
+    <value>PLAY</value>
+  </data>
+  <data name="Options.Text" xml:space="preserve">
+    <value>OPTIONS</value>
+  </data>
+  <data name="OptionsAccesibility.Text" xml:space="preserve">
+    <value>ACCESSIBILITY</value>
+  </data>
+  <data name="OptionsAudio.Text" xml:space="preserve">
+    <value>AUDIO</value>
+  </data>
+  <data name="OptionsBack.Content" xml:space="preserve">
+    <value>BACK</value>
+  </data>
+  <data name="OptionsColor.Text" xml:space="preserve">
+    <value>Color Blindness</value>
+  </data>
+  <data name="OptionsColorNo.Content" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="OptionsControls.Content" xml:space="preserve">
+    <value>CONTROLS</value>
+  </data>
+  <data name="OptionsDisplay.Text" xml:space="preserve">
+    <value>DISPLAY</value>
+  </data>
+  <data name="OptionsEffects.Text" xml:space="preserve">
+    <value>Effects</value>
+  </data>
+  <data name="OptionsFont.Content" xml:space="preserve">
+    <value>Subtitles Size</value>
+  </data>
+  <data name="OptionsFullScreen.Content" xml:space="preserve">
+    <value>FullScreen</value>
+  </data>
+  <data name="OptionsLanguage.Text" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="OptionsMainVolume.Text" xml:space="preserve">
+    <value>Volume</value>
+  </data>
+  <data name="OptionsMusic.Text" xml:space="preserve">
+    <value>Music</value>
+  </data>
+  <data name="OptionsNarrator.Content" xml:space="preserve">
+    <value>Narrator</value>
+  </data>
+  <data name="OptionsSubs.Content" xml:space="preserve">
+    <value>Subtitles</value>
+  </data>
+  <data name="OptionsText.Text" xml:space="preserve">
+    <value>TEXT</value>
+  </data>
+  <data name="Pause.Text" xml:space="preserve">
+    <value>Pause</value>
+  </data>
+  <data name="PauseExit.Content" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="PauseMenu.Content" xml:space="preserve">
+    <value>Menu</value>
+  </data>
+  <data name="PauseOptions.Content" xml:space="preserve">
+    <value>Options</value>
+  </data>
+  <data name="PauseResume.Content" xml:space="preserve">
+    <value>Continue</value>
+  </data>
+  <data name="SpyGlass.Text" xml:space="preserve">
+    <value>CCLICK TO EXIT</value>
+  </data>
+</root>
