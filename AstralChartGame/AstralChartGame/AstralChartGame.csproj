@@ -128,6 +128,9 @@
     <Compile Include="Catalejo.xaml.cs">
       <DependentUpon>Catalejo.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ControlesState.xaml.cs">
+      <DependentUpon>ControlesState.xaml</DependentUpon>
+    </Compile>
     <Compile Include="GameState.xaml.cs" />
     <Compile Include="Levels.xaml.cs">
       <DependentUpon>Levels.xaml</DependentUpon>
@@ -138,6 +141,7 @@
     <Compile Include="OptionsState.xaml.cs">
       <DependentUpon>OptionsState.xaml</DependentUpon>
     </Compile>
+    <Compile Include="OptionsStateParameters.cs" />
     <Compile Include="Pause.xaml.cs">
       <DependentUpon>Pause.xaml</DependentUpon>
     </Compile>
@@ -176,6 +180,7 @@
     <Content Include="Assets\audios\clickButton.wav" />
     <Content Include="Assets\audios\overButton.wav" />
     <Content Include="Assets\catalejo.jpg" />
+    <Content Include="Assets\controles.png" />
     <Content Include="Assets\cuaderno.png" />
     <Content Include="Assets\descarga.png" />
     <Content Include="Assets\levels.png" />
@@ -204,6 +209,10 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Page Include="Catalejo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ControlesState.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

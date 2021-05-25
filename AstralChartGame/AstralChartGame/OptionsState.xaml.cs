@@ -36,6 +36,7 @@ namespace AstralChartGame
         double musicVolume;
         double sfxVolume;
         bool narrator = true;
+        string bgSource;
         public OptionsState()
         {
             this.InitializeComponent();
@@ -48,6 +49,7 @@ namespace AstralChartGame
             this.NavigationCacheMode =
             Windows.UI.Xaml.Navigation.NavigationCacheMode.Enabled;
             //Check Options states
+            bgSource = "ms-appx:///Assets/Stars.jpg";
             var view = ApplicationView.GetForCurrentView();
             if (view.IsFullScreenMode)
                 FullScreen_CheckBox.IsChecked = true;
@@ -150,8 +152,12 @@ namespace AstralChartGame
                 tag = (sender as Button).Tag.ToString();
             else if ((sender as CheckBox) != null)
                 tag = (sender as CheckBox).Tag.ToString();
-            else
+            else if ((sender as Slider) != null)
                 tag = (sender as Slider).Tag.ToString();
+            else if ((sender as ComboBoxItem) != null)
+                tag = (sender as ComboBoxItem).Tag.ToString();
+            else
+                tag = (sender as ComboBox).Tag.ToString();
 
             if (narrator)
                 speak("Pulsaste" + tag);
@@ -268,21 +274,33 @@ namespace AstralChartGame
             {
                 case 0:
                     BG_Image.Source = new BitmapImage(new Uri("ms-appx:///Assets/Stars.jpg"));
+                    bgSource = "ms-appx:///Assets/Stars.jpg";
                     break;
                 case 1:
                     BG_Image.Source = new BitmapImage(new Uri("ms-appx:///Assets/Stars_Prot.png"));
+                    bgSource = "ms-appx:///Assets/Stars_Prot.png";
                     break;
                 case 2:
                     BG_Image.Source = new BitmapImage(new Uri("ms-appx:///Assets/Stars_Deu.png"));
+                    bgSource = "ms-appx:///Assets/Stars_Deu.png";
                     break;
                 case 3:
                     BG_Image.Source = new BitmapImage(new Uri("ms-appx:///Assets/Stars_Tri.png"));
+                    bgSource = "ms-appx:///Assets/Stars_Tri.png";
                     break;
             }
 
             soundClickButton(sender, e);
         }
         #endregion
+        private void controlsButtonClick(object sender, RoutedEventArgs e)
+        {
+            var param = new OptionsStateParameters();
+            param.BGSource = bgSource;
+            param.narrat = narrator;
+            this.Frame.Navigate(typeof(ControlesState), param);
+        }
+
         private void narratorClick(object sender, RoutedEventArgs e)
         {
             narrator = !narrator;
