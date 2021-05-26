@@ -63,6 +63,10 @@ namespace AstralChartGame.Stages
             n.Style = s;
         }
 
+        private void Play(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(GameState));
+        }
 
         private void select_level(object sender, RoutedEventArgs e){
 
@@ -75,7 +79,7 @@ namespace AstralChartGame.Stages
 
             if (A == null){
                 A = (Button)sender;
-                this.Frame.Navigate(typeof(GameState));
+               
             }
             else if (B == null)
             {
