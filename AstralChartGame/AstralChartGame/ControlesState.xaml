@@ -23,13 +23,20 @@
                VerticalAlignment="Stretch" Grid.RowSpan="3" 
                Grid.ColumnSpan="3" Source="/Assets/Stars.jpg" 
                Stretch="UniformToFill"/>
-        <StackPanel Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center">
-            <Button x:Uid="OptionsBack" Content="VOLVER" Tag ="Volver" Margin="2,0,0,0" 
-                    VerticalAlignment="Center" FontFamily="Audiowide" FontSize="20" 
-                    HorizontalAlignment="Left" 
-                    BorderBrush="#FF080000" Padding="10,10,10,10" Click="BackButton_Click" 
-                    PointerEntered="onEnteredButton"/>
-        </StackPanel>
+        <Viewbox Grid.Column="1">
+            <StackPanel Orientation="Horizontal">
+                <Button x:Uid="OptionsBack" Content="VOLVER" 
+                        Tag ="Volver" Margin="0,50,50,50" 
+                        VerticalAlignment="Center" FontFamily="Audiowide" FontSize="20" 
+                        HorizontalAlignment="Left" BorderBrush="#FF080000" 
+                        Padding="10,10,10,10" Click="BackButton_Click" 
+                        PointerEntered="onEnteredButton"/>
+                <TextBlock Text="CONTROLES" 
+                           TextWrapping="Wrap" FontFamily="Audiowide" 
+                           FontSize="72" HorizontalAlignment="Center" 
+                           VerticalAlignment="Center" Margin="40,0,190,0"/>
+            </StackPanel>
+        </Viewbox>
         <Viewbox Grid.Row="1" Grid.Column="1">
         <Grid>
             <Image HorizontalAlignment="Center" VerticalAlignment="Center" 
